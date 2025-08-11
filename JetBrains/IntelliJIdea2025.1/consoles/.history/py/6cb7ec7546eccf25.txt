@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+# coding: utf-8
+
+# Copyright (C) 2017-present Robert Griesel
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>
+
+import sys
+import os
+import os.path
+import importlib
+import gi
+
+# Try to import GTK
+try:
+    gi.require_version('Gtk', '4.0')
+except ValueError:
+    gi.require_version('Gtk', '3.0')
+
+from gi.repository import Gtk, Gio, GLib
+
+# Try to import Adwaita for modern GTK apps
+try:
+    gi.require_version('Adw', '1')
+    from gi.repository import Adw
+    has_adw = True
+except (ValueError, ImportError):
+    has_adw = False
+
+sys.dont_write_bytecode = True
+
+# Get the absolute path to the project root directory
+scripts_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(scripts_dir)
+
+# Add the project root to the Python path
+sys.path.insert(0, project_root)
+
+# Set environment variables that might be needed
+os.environ['SETZER_RESOURCES_DIR'] = os.path.join(project_root, 'data')
+os.environ['SETZER_LOCALE_DIR'] = os.path.join(project_root, 'po')
+os.environ['SETZER_IS_DEV'] = '1'
+
+try:
+    # Try to import directly from the source code structure
+    from setzer.app import service_locator
+    from setzer.workspace.workspace import Workspace
+
+    # Use the app directly - Create a simple application wrapper
+    app_id = 'org.cvfosammmm.Setzer.Development'
+
+    if has_adw:
+        app = Adw.Application(application_id=app_id, flags=Gio.ApplicationFlags.FLAGS_NONE)
+    else:
+        app = Gtk.Application(application_id=app_id, flags=Gio.ApplicationFlags.FLAGS_NONE)
+
+    def on_activate(app):
+        # Create a workspace
+        workspace = Workspace()
+
+        # Add the window to the application
+        window = workspace.window
+        app.add_window(window)
+        window.present()
+
+    app.connect('activate', on_activate)
+
+    # Run the application
+    exit_status = app.run(sys.argv)
+    sys.exit(exit_status)
+
+except ImportError as e:
+    # Try a different path - using Setzer namespace
+    try:
+        from Setzer.setzer.app import service_locator
+        from Setzer.setzer.workspace.workspace import Workspace
+
+        # Create the application
+        app_id = 'org.cvfosammmm.Setzer.Development'
+
+        if has_adw:
+            app = Adw.Application(application_id=app_id, flags=Gio.ApplicationFlags.FLAGS_NONE)
+        else:
+            app = Gtk.Application(application_id=app_id, flags=Gio.ApplicationFlags.FLAGS_NONE)
+
+        def on_activate(app):
+            # Create a workspace
+            workspace = Workspace()
+
+            # Add the window to the application
+            window = workspace.window
+            app.add_window(window)
+            window.present()
+
+        app.connect('activate', on_activate)
+
+        # Run the application
+        exit_status = app.run(sys.argv)
+        sys.exit(exit_status)
+
+    except ImportError as e2:
+        print('Could not import the required modules. Error details:')
+        print(f'First error: {e}')
+        print(f'Second error: {e2}')
+        print('\nPlease try one of these solutions:')
+        print('1. Run `meson _build` to set up the build environment')
+        print('2. Examine setzer.in for the actual application structure')

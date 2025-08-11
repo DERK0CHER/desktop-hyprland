@@ -1,0 +1,1241 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="gnome-builder" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="ChatSessionStateTemp">
+    <option name="chats">
+      <list>
+        <SerializedChat>
+          <option name="chatContext">
+            <SerializedChatContext />
+          </option>
+          <option name="messages">
+            <list>
+              <SerializedChatMessage>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=45159286-e8e2-4349-9e89-a4d6dc4df744)" />
+                <option name="displayContent" value="find the hamburger menu popover and print out the code" />
+                <option name="internalContent" value="find the hamburger menu popover and print out the code" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=c10c8c3f-2ffe-4da8-a065-0084022a4d56)" />
+                <option name="displayContent" value="I'll help you find code related to the hamburger menu popover. Let me search for relevant files and code snippets.I'll try a more general search to find UI components that might represent a hamburger menu or popover:Let me try searching for menu-related components that might be what you're looking for:Let's try searching for more general menu or popover related code:I notice there are mentions of popovers in the project. Let me search for more specific implementations to find the hamburger menu popover.Let me search for files related to menu components that might include the hamburger menu functionality:I've searched for code related to a hamburger menu popover in the project, but haven't found direct matches for &quot;hamburger menu&quot;. However, I did find some references to popovers and menus that might be related:&#10;&#10;1. There appears to be code for various popovers in the project:&#10;   - A goto line popover mentioned in NEWS&#10;   - A rename file popover referenced in UI files&#10;   - A new file popover&#10;&#10;2. There's also a comment about popup menu functionality that mentions adaptation of GtktextView popupmenu functions in the terminal plugin.&#10;&#10;Without seeing more of the project structure or specific file contents, I can't provide the exact code for the hamburger menu popover. The hamburger menu (three horizontal lines) is commonly implemented as a button that triggers a popover or dropdown menu.&#10;&#10;To find the specific code, we would need to:&#10;1. Look for UI files that might define the menu structure&#10;2. Search for code that implements menu buttons or popovers&#10;3. Examine controller code that handles menu interactions&#10;&#10;Would you like me to search for more specific terms or look at particular files that might contain the menu implementation?" />
+                <option name="internalContent" value="I'll help you find code related to the hamburger menu popover. Let me search for relevant files and code snippets.I'll try a more general search to find UI components that might represent a hamburger menu or popover:Let me try searching for menu-related components that might be what you're looking for:Let's try searching for more general menu or popover related code:I notice there are mentions of popovers in the project. Let me search for more specific implementations to find the hamburger menu popover.Let me search for files related to menu components that might include the hamburger menu functionality:I've searched for code related to a hamburger menu popover in the project, but haven't found direct matches for &quot;hamburger menu&quot;. However, I did find some references to popovers and menus that might be related:&#10;&#10;1. There appears to be code for various popovers in the project:&#10;   - A goto line popover mentioned in NEWS&#10;   - A rename file popover referenced in UI files&#10;   - A new file popover&#10;&#10;2. There's also a comment about popup menu functionality that mentions adaptation of GtktextView popupmenu functions in the terminal plugin.&#10;&#10;Without seeing more of the project structure or specific file contents, I can't provide the exact code for the hamburger menu popover. The hamburger menu (three horizontal lines) is commonly implemented as a button that triggers a popover or dropdown menu.&#10;&#10;To find the specific code, we would need to:&#10;1. Look for UI files that might define the menu structure&#10;2. Search for code that implements menu buttons or popovers&#10;3. Examine controller code that handles menu interactions&#10;&#10;Would you like me to search for more specific terms or look at particular files that might contain the menu implementation?" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="attachments">
+                  <list>
+                    <SerializedChatAttachment>
+                      <option name="name" value="Project View" />
+                      <option name="text" value="Project View content:&#10;```&#10;gnome-builder&#10; .idea&#10; build&#10; contrib&#10; data&#10; doc&#10; help&#10; libide&#10; libidemm&#10; plugins&#10; po&#10; src&#10; tests&#10; tools&#10; .buildconfig&#10; .editorconfig&#10; ARTISTS&#10; AUTHORS&#10; autogen.sh&#10; configure.ac&#10; CONTRIBUTING.md&#10; COPYING&#10; git.mk&#10; gnome-builder.doap&#10; Makefile.am&#10; NEWS&#10; README&#10;External Libraries&#10;Scratches and Consoles&#10;```" />
+                    </SerializedChatAttachment>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/doc/examples/plugins/sample-plugin/sample_plugin.py" />
+                      <option name="name" value="sample_plugin.py" />
+                      <option name="text" value="def do_populate(self, context):&#10;        iter = context.props.iter&#10;&#10;        # only add our items after a `.'&#10;        if iter.backward_char() and iter.get_char() == '.':&#10;            item = GtkSource.CompletionItem(label='do_something()', text='do_something()')&#10;            context.add_proposals(self, [item], True)" />
+                    </SerializedChatAttachment>
+                  </list>
+                </option>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=462eb573-56f5-431c-bb61-9ed1654df55a)" />
+                <option name="displayContent" value="try again im talking about the popover on the hamburger menu" />
+                <option name="internalContent" value="try again im talking about the popover on the hamburger menu" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=e51254ff-0528-4108-bb18-8b7f15aa0bad)" />
+                <option name="displayContent" value="I'll search specifically for the hamburger menu popover code:Based on my search, I can see several UI components in the GNOME Builder project that might be related to the hamburger menu popover you're asking about. &#10;&#10;The most relevant file I found is `ide-perspective-menu-button.c` and its UI definition file `ide-perspective-menu-button.ui` in the `libide/workbench` directory. This appears to be a menu button component that likely implements the hamburger menu functionality.&#10;&#10;There's also a mention of a &quot;document menu button&quot; in `ide-layout-view.c`, which could be related to what you're looking for.&#10;&#10;For the header bar, which typically contains the hamburger menu in GNOME applications, there are files called `ide-workbench-header-bar.c` and `ide-workbench-header-bar.ui`.&#10;&#10;Without seeing more specific code, I believe the hamburger menu implementation is likely in one of these files:&#10;&#10;1. `ide-perspective-menu-button.c` and `ide-perspective-menu-button.ui`&#10;2. `ide-workbench-header-bar.c` and `ide-workbench-header-bar.ui`&#10;&#10;If you'd like to see the specific code for the hamburger menu popover, let me know which of these files you'd like me to examine in more detail." />
+                <option name="internalContent" value="I'll search specifically for the hamburger menu popover code:Based on my search, I can see several UI components in the GNOME Builder project that might be related to the hamburger menu popover you're asking about. &#10;&#10;The most relevant file I found is `ide-perspective-menu-button.c` and its UI definition file `ide-perspective-menu-button.ui` in the `libide/workbench` directory. This appears to be a menu button component that likely implements the hamburger menu functionality.&#10;&#10;There's also a mention of a &quot;document menu button&quot; in `ide-layout-view.c`, which could be related to what you're looking for.&#10;&#10;For the header bar, which typically contains the hamburger menu in GNOME applications, there are files called `ide-workbench-header-bar.c` and `ide-workbench-header-bar.ui`.&#10;&#10;Without seeing more specific code, I believe the hamburger menu implementation is likely in one of these files:&#10;&#10;1. `ide-perspective-menu-button.c` and `ide-perspective-menu-button.ui`&#10;2. `ide-workbench-header-bar.c` and `ide-workbench-header-bar.ui`&#10;&#10;If you'd like to see the specific code for the hamburger menu popover, let me know which of these files you'd like me to examine in more detail." />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="attachments">
+                  <list>
+                    <SerializedChatAttachment>
+                      <option name="url" value="file://$PROJECT_DIR$/libide/workbench/ide-perspective-menu-button.c" />
+                      <option name="name" value="Information about open file in the editor" />
+                      <option name="text" value="```&#10;/* ide-perspective-menu-button.c&#10; *&#10; * Copyright (C) 2016 Christian Hergert &lt;chergert@redhat.com&gt;&#10; *&#10; * This program is free software: you can redistribute it and/or modify&#10; * it under the terms of the GNU General Public License as published by&#10; * the Free Software Foundation, either version 3 of the License, or&#10; * (at your option) any later version.&#10; *&#10; * This program is distributed in the hope that it will be useful,&#10; * but WITHOUT ANY WARRANTY; without even the implied warranty of&#10; * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#10; * GNU General Public License for more details.&#10; *&#10; * You should have received a copy of the GNU General Public License&#10; * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.&#10; */&#10;&#10;#define G_LOG_DOMAIN &quot;ide-perspective-menu-button&quot;&#10;&#10;#include &quot;ide-macros.h&quot;&#10;&#10;#include &quot;util/ide-gtk.h&quot;&#10;#include &quot;workbench/ide-perspective.h&quot;&#10;#include &quot;workbench/ide-perspective-menu-button.h&quot;&#10;#include &quot;workbench/ide-workbench.h&quot;&#10;&#10;struct _IdePerspectiveMenuButton&#10;{&#10;  GtkMenuButton  parent_instance;&#10;&#10;  /* Weak references */&#10;  GtkWidget     *stack;&#10;&#10;  /* Template children */&#10;  GtkSizeGroup  *accel_size_group;&#10;  GtkListBox    *list_box;&#10;  GtkPopover    *popover;&#10;  GtkImage      *image;&#10;};&#10;&#10;enum {&#10;  PROP_0,&#10;  PROP_STACK,&#10;  N_PROPS&#10;};&#10;&#10;static GParamSpec *properties [N_PROPS];&#10;&#10;G_DEFINE_TYPE (IdePerspectiveMenuButton, ide_perspective_menu_button, GTK_TYPE_MENU_BUTTON)&#10;&#10;static GtkWidget *&#10;ide_perspective_menu_button_create_row (IdePerspectiveMenuButton *self,&#10;                                        IdePerspective           *perspective)&#10;{&#10;  g_autofree gchar *title = NULL;&#10;  g_autofree gchar *icon_name = NULL;&#10;  g_autofree gchar *accel = NULL;&#10;  GtkListBoxRow *row;&#10;  GtkLabel *label;&#10;  GtkImage *image;&#10;  GtkBox *box;&#10;&#10;  g_assert (IDE_IS_PERSPECTIVE_MENU_BUTTON (self));&#10;  g_assert (IDE_IS_PERSPECTIVE (perspective));&#10;&#10;  title = ide_perspective_get_title (perspective);&#10;  icon_name = ide_perspective_get_icon_name (perspective);&#10;&#10;  row = g_object_new (GTK_TYPE_LIST_BOX_ROW,&#10;                      &quot;can-focus&quot;, FALSE,&#10;                      &quot;selectable&quot;, FALSE,&#10;                      &quot;visible&quot;, TRUE,&#10;                      NULL);&#10;&#10;  g_object_set_data_full (G_OBJECT (row),&#10;                          &quot;IDE_PERSPECTIVE_ID&quot;,&#10;                          ide_perspective_get_id (perspective),&#10;                          g_free);&#10;&#10;  g_object_set_data (G_OBJECT (row),&#10;                     &quot;IDE_PERSPECTIVE_PRIORITY&quot;,&#10;                     GINT_TO_POINTER (ide_perspective_get_priority (perspective)));&#10;&#10;  box = g_object_new (GTK_TYPE_BOX,&#10;                      &quot;visible&quot;, TRUE,&#10;                      NULL);&#10;  gtk_container_add (GTK_CONTAINER (row), GTK_WIDGET (box));&#10;&#10;  image = g_object_new (GTK_TYPE_IMAGE,&#10;                        &quot;hexpand&quot;, FALSE,&#10;                        &quot;icon-name&quot;, icon_name,&#10;                        &quot;visible&quot;, TRUE,&#10;                        NULL);&#10;  gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (image));&#10;&#10;  label = g_object_new (GTK_TYPE_LABEL,&#10;                        &quot;label&quot;, title,&#10;                        &quot;hexpand&quot;, TRUE,&#10;                        &quot;xalign&quot;, 0.0f,&#10;                        &quot;visible&quot;, TRUE,&#10;                        NULL);&#10;  gtk_container_add (GTK_CONTAINER (box), GTK_WIDGET (label));&#10;&#10;  accel = ide_perspective_get_accelerator (perspective);&#10;&#10;  if (accel != NULL)&#10;    {&#10;      g_autofree gchar *xaccel = NULL;&#10;      guint accel_key = 0;&#10;      GdkModifierType accel_mod = 0;&#10;&#10;      gtk_accelerator_parse (accel, &amp;accel_key, &amp;accel_mod);&#10;      xaccel = gtk_accelerator_get_label (accel_key, accel_mod);&#10;      label = g_object_new (GTK_TYPE_LABEL,&#10;                            &quot;label&quot;, xaccel,&#10;                            &quot;visible&quot;, TRUE,&#10;                            &quot;xalign&quot;, 0.0f,&#10;                            NULL);&#10;      ide_widget_add_style_class (GTK_WIDGET (label), &quot;dim-label&quot;);&#10;      ide_widget_add_style_class (GTK_WIDGET (label), &quot;accel&quot;);&#10;      gtk_container_add_with_properties (GTK_CONTAINER (box), GTK_WIDGET (label),&#10;                                         &quot;pack-type&quot;, GTK_PACK_END,&#10;                                         NULL);&#10;      gtk_size_group_add_widget (self-&gt;accel_size_group, GTK_WIDGET (label));&#10;    }&#10;&#10;  return GTK_WIDGET (row);&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_do_add_child (GtkWidget *widget,&#10;                                          gpointer   user_data)&#10;{&#10;  IdePerspectiveMenuButton *self = user_data;&#10;  GtkWidget *row;&#10;&#10;  g_assert (GTK_IS_WIDGET (widget));&#10;  g_assert (IDE_IS_PERSPECTIVE_MENU_BUTTON (self));&#10;&#10;  row = ide_perspective_menu_button_create_row (self, IDE_PERSPECTIVE (widget));&#10;  gtk_container_add (GTK_CONTAINER (self-&gt;list_box), row);&#10;  gtk_list_box_invalidate_sort (self-&gt;list_box);&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_add_child (IdePerspectiveMenuButton *self,&#10;                                       GtkWidget                *child,&#10;                                       GtkStack                 *stack)&#10;{&#10;  g_assert (IDE_IS_PERSPECTIVE_MENU_BUTTON (self));&#10;  g_assert (GTK_IS_WIDGET (child));&#10;  g_assert (GTK_IS_STACK (stack));&#10;&#10;  if (!IDE_IS_PERSPECTIVE (child))&#10;    {&#10;      g_warning (&quot;Attempt to add something other than an IdePerspective to %s&quot;,&#10;                 G_OBJECT_TYPE_NAME (self));&#10;      return;&#10;    }&#10;&#10;  if (ide_perspective_is_early (IDE_PERSPECTIVE (child)))&#10;    return;&#10;&#10;  ide_perspective_menu_button_do_add_child (child, self);&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_do_remove_child (GtkWidget *widget,&#10;                                             gpointer   user_data)&#10;{&#10;  const gchar *id = user_data;&#10;  const gchar *widget_id;&#10;&#10;  g_assert (GTK_IS_LIST_BOX_ROW (widget));&#10;&#10;  widget_id = g_object_get_data (G_OBJECT (widget), &quot;IDE_PERSPECTIVE_ID&quot;);&#10;&#10;  if (g_strcmp0 (widget_id, id) == 0)&#10;    gtk_widget_destroy (widget);&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_remove_child (IdePerspectiveMenuButton *self,&#10;                                          GtkWidget                *child,&#10;                                          GtkStack                 *stack)&#10;{&#10;  g_autofree gchar *id = NULL;&#10;&#10;  g_assert (IDE_IS_PERSPECTIVE_MENU_BUTTON (self));&#10;  g_assert (GTK_IS_WIDGET (child));&#10;  g_assert (GTK_IS_STACK (stack));&#10;&#10;  /* warn on addition, silent on removal */&#10;  if (!IDE_IS_PERSPECTIVE (child))&#10;    return;&#10;&#10;  id = ide_perspective_get_id (IDE_PERSPECTIVE (child));&#10;  if (id != NULL)&#10;    gtk_container_foreach (GTK_CONTAINER (self-&gt;list_box),&#10;                           ide_perspective_menu_button_do_remove_child,&#10;                           id);&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_notify_visible_child (IdePerspectiveMenuButton *self,&#10;                                                  GParamSpec               *pspec,&#10;                                                  GtkStack                 *stack)&#10;{&#10;  GtkWidget *child;&#10;&#10;  g_assert (IDE_IS_PERSPECTIVE_MENU_BUTTON (self));&#10;  g_assert (GTK_IS_STACK (stack));&#10;&#10;  child = gtk_stack_get_visible_child (stack);&#10;&#10;  if (IDE_IS_PERSPECTIVE (child))&#10;    {&#10;      g_autofree gchar *icon_name = NULL;&#10;&#10;      icon_name = ide_perspective_get_icon_name (IDE_PERSPECTIVE (child));&#10;&#10;      g_object_set (self-&gt;image,&#10;                    &quot;icon-name&quot;, icon_name,&#10;                    NULL);&#10;    }&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_disconnect (IdePerspectiveMenuButton *self)&#10;{&#10;  g_assert (IDE_IS_PERSPECTIVE_MENU_BUTTON (self));&#10;  g_assert (GTK_IS_STACK (self-&gt;stack));&#10;&#10;  g_signal_handlers_disconnect_by_func (self-&gt;stack,&#10;                                        G_CALLBACK (ide_perspective_menu_button_add_child),&#10;                                        self);&#10;  g_signal_handlers_disconnect_by_func (self-&gt;stack,&#10;                                        G_CALLBACK (ide_perspective_menu_button_remove_child),&#10;                                        self);&#10;  g_signal_handlers_disconnect_by_func (self-&gt;stack,&#10;                                        G_CALLBACK (ide_perspective_menu_button_notify_visible_child),&#10;                                        self);&#10;&#10;  ide_clear_weak_pointer (&amp;self-&gt;stack);&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_connect (IdePerspectiveMenuButton *self,&#10;                                     GtkWidget                *stack)&#10;{&#10;  g_assert (IDE_IS_PERSPECTIVE_MENU_BUTTON (self));&#10;  g_assert (GTK_IS_STACK (stack));&#10;&#10;  ide_set_weak_pointer (&amp;self-&gt;stack, stack);&#10;&#10;  g_signal_connect_object (stack,&#10;                           &quot;add&quot;,&#10;                           G_CALLBACK (ide_perspective_menu_button_add_child),&#10;                           self,&#10;                           G_CONNECT_SWAPPED);&#10;&#10;  g_signal_connect_object (stack,&#10;                           &quot;remove&quot;,&#10;                           G_CALLBACK (ide_perspective_menu_button_remove_child),&#10;                           self,&#10;                           G_CONNECT_SWAPPED);&#10;&#10;  g_signal_connect_object (stack,&#10;                           &quot;notify::visible-child&quot;,&#10;                           G_CALLBACK (ide_perspective_menu_button_notify_visible_child),&#10;                           self,&#10;                           G_CONNECT_SWAPPED);&#10;&#10;  gtk_container_foreach (GTK_CONTAINER (stack),&#10;                         ide_perspective_menu_button_do_add_child,&#10;                         self);&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_row_activated (IdePerspectiveMenuButton *self,&#10;                                           GtkListBoxRow            *row,&#10;                                           GtkListBox               *list_box)&#10;{&#10;  const gchar *id;&#10;  GtkWidget *workbench;&#10;&#10;  g_assert (IDE_IS_PERSPECTIVE_MENU_BUTTON (self));&#10;  g_assert (GTK_IS_LIST_BOX_ROW (row));&#10;  g_assert (GTK_IS_LIST_BOX (list_box));&#10;&#10;  workbench = gtk_widget_get_ancestor (GTK_WIDGET (self), IDE_TYPE_WORKBENCH);&#10;  id = g_object_get_data (G_OBJECT (row), &quot;IDE_PERSPECTIVE_ID&quot;);&#10;&#10;  /*&#10;   * We use the workbench to set the perspective name rather than the stack&#10;   * so that it can have a simpler implementation of handling changes between&#10;   * perspectives. Otherwise, we have to be much more careful about&#10;   * re-entrancy issues.&#10;   */&#10;&#10;  if (id != NULL &amp;&amp; IDE_IS_WORKBENCH (workbench))&#10;    {&#10;      ide_workbench_set_visible_perspective_name (IDE_WORKBENCH (workbench), id);&#10;      gtk_popover_popdown (self-&gt;popover);&#10;    }&#10;}&#10;&#10;static gint&#10;list_box_sort (GtkListBoxRow *row1,&#10;               GtkListBoxRow *row2,&#10;               gpointer       user_data)&#10;{&#10;  gpointer priority1;&#10;  gpointer priority2;&#10;&#10;  priority1 = g_object_get_data (G_OBJECT (row1), &quot;IDE_PERSPECTIVE_PRIORITY&quot;);&#10;  priority2 = g_object_get_data (G_OBJECT (row2), &quot;IDE_PERSPECTIVE_PRIORITY&quot;);&#10;&#10;  return GPOINTER_TO_INT (priority1) - GPOINTER_TO_INT (priority2);&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_get_property (GObject    *object,&#10;                                          guint       prop_id,&#10;                                          GValue     *value,&#10;                                          GParamSpec *pspec)&#10;{&#10;  IdePerspectiveMenuButton *self = IDE_PERSPECTIVE_MENU_BUTTON (object);&#10;&#10;  switch (prop_id)&#10;    {&#10;    case PROP_STACK:&#10;      g_value_set_object (value, ide_perspective_menu_button_get_stack (self));&#10;      break;&#10;&#10;    default:&#10;      G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);&#10;    }&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_set_property (GObject      *object,&#10;                                          guint         prop_id,&#10;                                          const GValue *value,&#10;                                          GParamSpec   *pspec)&#10;{&#10;  IdePerspectiveMenuButton *self = IDE_PERSPECTIVE_MENU_BUTTON (object);&#10;&#10;  switch (prop_id)&#10;    {&#10;    case PROP_STACK:&#10;      ide_perspective_menu_button_set_stack (self, g_value_get_object (value));&#10;      break;&#10;&#10;    default:&#10;      G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);&#10;    }&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_class_init (IdePerspectiveMenuButtonClass *klass)&#10;{&#10;  GObjectClass *object_class = G_OBJECT_CLASS (klass);&#10;  GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);&#10;&#10;  object_class-&gt;get_property = ide_perspective_menu_button_get_property;&#10;  object_class-&gt;set_property = ide_perspective_menu_button_set_property;&#10;&#10;  properties [PROP_STACK] =&#10;    g_param_spec_object (&quot;stack&quot;,&#10;                         &quot;Stack&quot;,&#10;                         &quot;The perspectives stack&quot;,&#10;                         GTK_TYPE_STACK,&#10;&#10;                         (G_PARAM_READWRITE | G_PARAM_EXPLICIT_NOTIFY | G_PARAM_STATIC_STRINGS));&#10;  g_object_class_install_properties (object_class, N_PROPS, properties);&#10;&#10;  gtk_widget_class_set_template_from_resource (widget_class, &quot;/org/gnome/builder/ui/ide-perspective-menu-button.ui&quot;);&#10;  gtk_widget_class_bind_template_child (widget_class, IdePerspectiveMenuButton, accel_size_group);&#10;  gtk_widget_class_bind_template_child (widget_class, IdePerspectiveMenuButton, image);&#10;  gtk_widget_class_bind_template_child (widget_class, IdePerspectiveMenuButton, list_box);&#10;  gtk_widget_class_bind_template_child (widget_class, IdePerspectiveMenuButton, popover);&#10;}&#10;&#10;static void&#10;ide_perspective_menu_button_init (IdePerspectiveMenuButton *self)&#10;{&#10;  gtk_widget_init_template (GTK_WIDGET (self));&#10;&#10;  gtk_list_box_set_sort_func (self-&gt;list_box, list_box_sort, NULL, NULL);&#10;&#10;  g_signal_connect_object (self-&gt;list_box,&#10;                           &quot;row-activated&quot;,&#10;                           G_CALLBACK (ide_perspective_menu_button_row_activated),&#10;                           self,&#10;                           G_CONNECT_SWAPPED);&#10;}&#10;&#10;/**&#10; * ide_perspective_menu_button_get_stack:&#10; *&#10; * Returns: (nullable) (transfer none): A #GtkStack or %NULL.&#10; */&#10;GtkWidget *&#10;ide_perspective_menu_button_get_stack (IdePerspectiveMenuButton *self)&#10;{&#10;  g_return_val_if_fail (IDE_IS_PERSPECTIVE_MENU_BUTTON (self), NULL);&#10;&#10;  return self-&gt;stack;&#10;}&#10;&#10;void&#10;ide_perspective_menu_button_set_stack (IdePerspectiveMenuButton *self,&#10;                                       GtkWidget                *stack)&#10;{&#10;  g_return_if_fail (IDE_IS_PERSPECTIVE_MENU_BUTTON (self));&#10;  g_return_if_fail (!stack || GTK_IS_STACK (stack));&#10;&#10;  if (stack != self-&gt;stack)&#10;    {&#10;      if (self-&gt;stack != NULL)&#10;        ide_perspective_menu_button_disconnect (self);&#10;&#10;      if (stack != NULL)&#10;        ide_perspective_menu_button_connect (self, stack);&#10;&#10;      g_object_notify_by_pspec (G_OBJECT (self), properties [PROP_STACK]);&#10;    }&#10;}&#10;&#10;```" />
+                    </SerializedChatAttachment>
+                  </list>
+                </option>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=8a03b869-9f0b-4dff-8401-3bed187a16ff)" />
+                <option name="displayContent" value="now?" />
+                <option name="internalContent" value="now?" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=75c59f7c-993f-40ab-a545-9a6d98ff8493)" />
+                <option name="displayContent" value="Now I can see the code for the hamburger menu popover! This file `ide-perspective-menu-button.c` implements the perspective switcher menu button (often displayed as a hamburger menu) in GNOME Builder.&#10;&#10;Here's what this code does:&#10;&#10;1. `IdePerspectiveMenuButton` is a subclass of `GtkMenuButton` that displays a popover menu with all the available perspectives (different views or modes) in the GNOME Builder IDE.&#10;&#10;2. The key components of the popover implementation:&#10;   - `popover` - The GTK Popover that appears when clicking the button&#10;   - `list_box` - Contains the list of perspectives &#10;   - `image` - Shows the icon of the currently selected perspective&#10;&#10;3. The menu is populated with rows, each containing:&#10;   - An icon for the perspective&#10;   - The perspective title&#10;   - A keyboard accelerator label (if available)&#10;&#10;4. When a row is clicked, it calls `ide_perspective_menu_button_row_activated()` which:&#10;   - Gets the perspective ID from the clicked row&#10;   - Switches to that perspective using `ide_workbench_set_visible_perspective_name()`&#10;   - Hides the popover&#10;&#10;5. The rows in the list are sorted based on priority values assigned to each perspective.&#10;&#10;This is a classic implementation of a hamburger menu in GTK applications - a menu button that displays a popover containing a list of options. When clicked, it shows or hides a popover with different perspectives or views that the user can switch between." />
+                <option name="internalContent" value="Now I can see the code for the hamburger menu popover! This file `ide-perspective-menu-button.c` implements the perspective switcher menu button (often displayed as a hamburger menu) in GNOME Builder.&#10;&#10;Here's what this code does:&#10;&#10;1. `IdePerspectiveMenuButton` is a subclass of `GtkMenuButton` that displays a popover menu with all the available perspectives (different views or modes) in the GNOME Builder IDE.&#10;&#10;2. The key components of the popover implementation:&#10;   - `popover` - The GTK Popover that appears when clicking the button&#10;   - `list_box` - Contains the list of perspectives &#10;   - `image` - Shows the icon of the currently selected perspective&#10;&#10;3. The menu is populated with rows, each containing:&#10;   - An icon for the perspective&#10;   - The perspective title&#10;   - A keyboard accelerator label (if available)&#10;&#10;4. When a row is clicked, it calls `ide_perspective_menu_button_row_activated()` which:&#10;   - Gets the perspective ID from the clicked row&#10;   - Switches to that perspective using `ide_workbench_set_visible_perspective_name()`&#10;   - Hides the popover&#10;&#10;5. The rows in the list are sorted based on priority values assigned to each perspective.&#10;&#10;This is a classic implementation of a hamburger menu in GTK applications - a menu button that displays a popover containing a list of options. When clicked, it shows or hides a popover with different perspectives or views that the user can switch between." />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=9a8e3b33-92be-4c4a-ada1-9a98c744f14c)" />
+                <option name="displayContent" value="print out the code for replication in python" />
+                <option name="internalContent" value="print out the code for replication in python" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=1aac1d8d-5455-47bf-8522-f33904ee2781)" />
+                <option name="displayContent" value="Here's how you could implement the equivalent of this hamburger menu popover in Python using GTK:&#10;&#10;```python&#10;#!/usr/bin/env python3&#10;&#10;import gi&#10;gi.require_version('Gtk', '3.0')&#10;from gi.repository import Gtk, GObject, Gdk&#10;&#10;class PerspectiveMenuButton(Gtk.MenuButton):&#10;    &quot;&quot;&quot;A button that displays a popover with a list of perspectives.&quot;&quot;&quot;&#10;    &#10;    __gtype_name__ = &quot;PerspectiveMenuButton&quot;&#10;    &#10;    def __init__(self):&#10;        super().__init__()&#10;        &#10;        # Initialize private variables&#10;        self.stack = None&#10;        &#10;        # Set up UI components&#10;        self.setup_ui()&#10;        &#10;    def setup_ui(self):&#10;        # Create the popover&#10;        self.popover = Gtk.Popover()&#10;        self.set_popover(self.popover)&#10;        &#10;        # Create a box for the popover content&#10;        popover_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)&#10;        popover_box.set_margin_start(12)&#10;        popover_box.set_margin_end(12)&#10;        popover_box.set_margin_top(12)&#10;        popover_box.set_margin_bottom(12)&#10;        self.popover.add(popover_box)&#10;        &#10;        # Create a scrolled window&#10;        scrolled = Gtk.ScrolledWindow()&#10;        scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)&#10;        scrolled.set_max_content_height(600)&#10;        scrolled.set_propagate_natural_height(True)&#10;        popover_box.pack_start(scrolled, True, True, 0)&#10;        &#10;        # Create the list box&#10;        self.list_box = Gtk.ListBox()&#10;        self.list_box.set_selection_mode(Gtk.SelectionMode.NONE)&#10;        self.list_box.connect(&quot;row-activated&quot;, self.on_row_activated)&#10;        scrolled.add(self.list_box)&#10;        &#10;        # Create a size group for accelerator labels&#10;        self.accel_size_group = Gtk.SizeGroup(Gtk.SizeGroupMode.HORIZONTAL)&#10;        &#10;        # Set the button image&#10;        self.image = Gtk.Image.new_from_icon_name(&quot;open-menu-symbolic&quot;, Gtk.IconSize.BUTTON)&#10;        self.add(self.image)&#10;        &#10;        # Show all widgets&#10;        self.show_all()&#10;        &#10;    def set_stack(self, stack):&#10;        &quot;&quot;&quot;Set the stack containing perspectives.&quot;&quot;&quot;&#10;        if self.stack == stack:&#10;            return&#10;            &#10;        if self.stack is not None:&#10;            self.disconnect_stack()&#10;            &#10;        self.stack = stack&#10;        &#10;        if self.stack is not None:&#10;            self.connect_stack()&#10;            &#10;    def get_stack(self):&#10;        &quot;&quot;&quot;Get the current stack.&quot;&quot;&quot;&#10;        return self.stack&#10;        &#10;    def connect_stack(self):&#10;        &quot;&quot;&quot;Connect to stack signals.&quot;&quot;&quot;&#10;        if not self.stack:&#10;            return&#10;            &#10;        self.stack.connect(&quot;add&quot;, self.on_child_added)&#10;        self.stack.connect(&quot;remove&quot;, self.on_child_removed)&#10;        self.stack.connect(&quot;notify::visible-child&quot;, self.on_visible_child_changed)&#10;        &#10;        # Add existing children&#10;        for child in self.stack.get_children():&#10;            self.add_perspective_row(child)&#10;            &#10;    def disconnect_stack(self):&#10;        &quot;&quot;&quot;Disconnect from stack signals.&quot;&quot;&quot;&#10;        if not self.stack:&#10;            return&#10;            &#10;        # Clear all rows&#10;        for child in self.list_box.get_children():&#10;            child.destroy()&#10;            &#10;        # Disconnect signals&#10;        handlers = [&#10;            self.stack.handler_find(self.on_child_added),&#10;            self.stack.handler_find(self.on_child_removed),&#10;            self.stack.handler_find(self.on_visible_child_changed)&#10;        ]&#10;        &#10;        for handler_id in handlers:&#10;            if handler_id:&#10;                self.stack.disconnect(handler_id)&#10;                &#10;        self.stack = None&#10;        &#10;    def add_perspective_row(self, perspective):&#10;        &quot;&quot;&quot;Add a row for a perspective to the list.&quot;&quot;&quot;&#10;        # Check if this is a valid perspective&#10;        if not hasattr(perspective, &quot;get_id&quot;) or not hasattr(perspective, &quot;get_title&quot;):&#10;            return&#10;            &#10;        # Skip early perspectives&#10;        if hasattr(perspective, &quot;is_early&quot;) and perspective.is_early():&#10;            return&#10;            &#10;        # Create a new row&#10;        row = Gtk.ListBoxRow()&#10;        row.set_can_focus(False)&#10;        row.set_selectable(False)&#10;        &#10;        # Set perspective data on the row&#10;        row.perspective_id = perspective.get_id()&#10;        row.perspective_priority = perspective.get_priority() if hasattr(perspective, &quot;get_priority&quot;) else 0&#10;        &#10;        # Create a box for the row content&#10;        box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=6)&#10;        row.add(box)&#10;        &#10;        # Add icon&#10;        icon_name = perspective.get_icon_name() if hasattr(perspective, &quot;get_icon_name&quot;) else &quot;application-x-executable-symbolic&quot;&#10;        image = Gtk.Image.new_from_icon_name(icon_name, Gtk.IconSize.MENU)&#10;        box.pack_start(image, False, False, 0)&#10;        &#10;        # Add title&#10;        title = perspective.get_title()&#10;        label = Gtk.Label(label=title)&#10;        label.set_xalign(0.0)&#10;        label.set_hexpand(True)&#10;        box.pack_start(label, True, True, 0)&#10;        &#10;        # Add accelerator if available&#10;        if hasattr(perspective, &quot;get_accelerator&quot;):&#10;            accel = perspective.get_accelerator()&#10;            if accel:&#10;                key, mods = Gtk.accelerator_parse(accel)&#10;                accel_label = Gtk.accelerator_get_label(key, mods)&#10;                &#10;                accel_widget = Gtk.Label(label=accel_label)&#10;                accel_widget.get_style_context().add_class(&quot;dim-label&quot;)&#10;                accel_widget.get_style_context().add_class(&quot;accel&quot;)&#10;                accel_widget.set_xalign(0.0)&#10;                &#10;                box.pack_end(accel_widget, False, False, 0)&#10;                self.accel_size_group.add_widget(accel_widget)&#10;        &#10;        # Show all widgets in the row&#10;        row.show_all()&#10;        &#10;        # Add the row to the list box&#10;        self.list_box.add(row)&#10;        &#10;        # Sort the list box&#10;        self.list_box.set_sort_func(self.sort_rows)&#10;        &#10;    def sort_rows(self, row1, row2):&#10;        &quot;&quot;&quot;Sort rows based on perspective priority.&quot;&quot;&quot;&#10;        priority1 = getattr(row1, &quot;perspective_priority&quot;, 0)&#10;        priority2 = getattr(row2, &quot;perspective_priority&quot;, 0)&#10;        return priority1 - priority2&#10;        &#10;    def remove_perspective_row(self, perspective):&#10;        &quot;&quot;&quot;Remove a perspective row from the list.&quot;&quot;&quot;&#10;        if not hasattr(perspective, &quot;get_id&quot;):&#10;            return&#10;            &#10;        perspective_id = perspective.get_id()&#10;        &#10;        # Find and remove the row with matching perspective_id&#10;        for row in self.list_box.get_children():&#10;            if getattr(row, &quot;perspective_id&quot;, None) == perspective_id:&#10;                row.destroy()&#10;                break&#10;                &#10;    def on_child_added(self, stack, child):&#10;        &quot;&quot;&quot;Handle when a child is added to the stack.&quot;&quot;&quot;&#10;        self.add_perspective_row(child)&#10;        &#10;    def on_child_removed(self, stack, child):&#10;        &quot;&quot;&quot;Handle when a child is removed from the stack.&quot;&quot;&quot;&#10;        self.remove_perspective_row(child)&#10;        &#10;    def on_visible_child_changed(self, stack, param):&#10;        &quot;&quot;&quot;Handle when the visible child changes.&quot;&quot;&quot;&#10;        child = stack.get_visible_child()&#10;        &#10;        if hasattr(child, &quot;get_icon_name&quot;):&#10;            icon_name = child.get_icon_name()&#10;            self.image.set_from_icon_name(icon_name, Gtk.IconSize.BUTTON)&#10;            &#10;    def on_row_activated(self, list_box, row):&#10;        &quot;&quot;&quot;Handle when a row is activated (clicked).&quot;&quot;&quot;&#10;        perspective_id = getattr(row, &quot;perspective_id&quot;, None)&#10;        &#10;        if perspective_id:&#10;            # Find the workbench (parent container)&#10;            parent = self.get_parent()&#10;            while parent and not hasattr(parent, &quot;set_visible_perspective_name&quot;):&#10;                parent = parent.get_parent()&#10;                &#10;            # Switch to the selected perspective&#10;            if parent and hasattr(parent, &quot;set_visible_perspective_name&quot;):&#10;                parent.set_visible_perspective_name(perspective_id)&#10;                self.popover.popdown()&#10;&#10;# Example usage:&#10;if __name__ == &quot;__main__&quot;:&#10;    class SimplePerspective(Gtk.Box):&#10;        def __init__(self, title, icon_name, priority=0, accel=None):&#10;            super().__init__()&#10;            self.title = title&#10;            self.icon_name = icon_name&#10;            self.id = title.lower().replace(&quot; &quot;, &quot;-&quot;)&#10;            self.priority = priority&#10;            self.accel = accel&#10;            &#10;        def get_id(self):&#10;            return self.id&#10;            &#10;        def get_title(self):&#10;            return self.title&#10;            &#10;        def get_icon_name(self):&#10;            return self.icon_name&#10;            &#10;        def get_priority(self):&#10;            return self.priority&#10;            &#10;        def get_accelerator(self):&#10;            return self.accel&#10;            &#10;        def is_early(self):&#10;            return False&#10;    &#10;    class DemoWindow(Gtk.Window):&#10;        def __init__(self):&#10;            super().__init__(title=&quot;Perspective Menu Demo&quot;)&#10;            self.set_default_size(800, 600)&#10;            self.connect(&quot;destroy&quot;, Gtk.main_quit)&#10;            &#10;            header_bar = Gtk.HeaderBar()&#10;            header_bar.set_show_close_button(True)&#10;            header_bar.set_title(&quot;Perspective Menu Demo&quot;)&#10;            self.set_titlebar(header_bar)&#10;            &#10;            # Create the stack&#10;            self.stack = Gtk.Stack()&#10;            &#10;            # Create the menu button&#10;            menu_button = PerspectiveMenuButton()&#10;            menu_button.set_stack(self.stack)&#10;            header_bar.pack_end(menu_button)&#10;            &#10;            # Add some perspectives to the stack&#10;            perspectives = [&#10;                SimplePerspective(&quot;Editor&quot;, &quot;text-editor-symbolic&quot;, 100, &quot;&lt;Alt&gt;1&quot;),&#10;                SimplePerspective(&quot;Terminal&quot;, &quot;utilities-terminal-symbolic&quot;, 200, &quot;&lt;Alt&gt;2&quot;),&#10;                SimplePerspective(&quot;Build&quot;, &quot;system-run-symbolic&quot;, 300, &quot;&lt;Alt&gt;3&quot;),&#10;                SimplePerspective(&quot;Debug&quot;, &quot;debug-symbolic&quot;, 400, &quot;&lt;Alt&gt;4&quot;),&#10;                SimplePerspective(&quot;Search&quot;, &quot;edit-find-symbolic&quot;, 500, &quot;&lt;Alt&gt;5&quot;)&#10;            ]&#10;            &#10;            for p in perspectives:&#10;                label = Gtk.Label(label=f&quot;This is the {p.get_title()} perspective&quot;)&#10;                p.add(label)&#10;                self.stack.add_named(p, p.get_id())&#10;            &#10;            self.add(self.stack)&#10;            self.show_all()&#10;            &#10;        def set_visible_perspective_name(self, name):&#10;            self.stack.set_visible_child_name(name)&#10;    &#10;    win = DemoWindow()&#10;    Gtk.main()&#10;```&#10;&#10;This Python implementation replicates the functionality of the C code:&#10;&#10;1. It creates a `PerspectiveMenuButton` class derived from `Gtk.MenuButton`&#10;2. The button displays a popover containing a list of perspectives&#10;3. Each perspective is represented as a row with an icon, title, and optional keyboard accelerator&#10;4. The rows are sorted by priority&#10;5. When a row is clicked, it switches to that perspective&#10;6. The button updates its icon to match the currently visible perspective&#10;&#10;The example code at the bottom shows how to use this in a simple application with multiple perspectives and a header bar." />
+                <option name="internalContent" value="Here's how you could implement the equivalent of this hamburger menu popover in Python using GTK:&#10;&#10;```python&#10;#!/usr/bin/env python3&#10;&#10;import gi&#10;gi.require_version('Gtk', '3.0')&#10;from gi.repository import Gtk, GObject, Gdk&#10;&#10;class PerspectiveMenuButton(Gtk.MenuButton):&#10;    &quot;&quot;&quot;A button that displays a popover with a list of perspectives.&quot;&quot;&quot;&#10;    &#10;    __gtype_name__ = &quot;PerspectiveMenuButton&quot;&#10;    &#10;    def __init__(self):&#10;        super().__init__()&#10;        &#10;        # Initialize private variables&#10;        self.stack = None&#10;        &#10;        # Set up UI components&#10;        self.setup_ui()&#10;        &#10;    def setup_ui(self):&#10;        # Create the popover&#10;        self.popover = Gtk.Popover()&#10;        self.set_popover(self.popover)&#10;        &#10;        # Create a box for the popover content&#10;        popover_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)&#10;        popover_box.set_margin_start(12)&#10;        popover_box.set_margin_end(12)&#10;        popover_box.set_margin_top(12)&#10;        popover_box.set_margin_bottom(12)&#10;        self.popover.add(popover_box)&#10;        &#10;        # Create a scrolled window&#10;        scrolled = Gtk.ScrolledWindow()&#10;        scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)&#10;        scrolled.set_max_content_height(600)&#10;        scrolled.set_propagate_natural_height(True)&#10;        popover_box.pack_start(scrolled, True, True, 0)&#10;        &#10;        # Create the list box&#10;        self.list_box = Gtk.ListBox()&#10;        self.list_box.set_selection_mode(Gtk.SelectionMode.NONE)&#10;        self.list_box.connect(&quot;row-activated&quot;, self.on_row_activated)&#10;        scrolled.add(self.list_box)&#10;        &#10;        # Create a size group for accelerator labels&#10;        self.accel_size_group = Gtk.SizeGroup(Gtk.SizeGroupMode.HORIZONTAL)&#10;        &#10;        # Set the button image&#10;        self.image = Gtk.Image.new_from_icon_name(&quot;open-menu-symbolic&quot;, Gtk.IconSize.BUTTON)&#10;        self.add(self.image)&#10;        &#10;        # Show all widgets&#10;        self.show_all()&#10;        &#10;    def set_stack(self, stack):&#10;        &quot;&quot;&quot;Set the stack containing perspectives.&quot;&quot;&quot;&#10;        if self.stack == stack:&#10;            return&#10;            &#10;        if self.stack is not None:&#10;            self.disconnect_stack()&#10;            &#10;        self.stack = stack&#10;        &#10;        if self.stack is not None:&#10;            self.connect_stack()&#10;            &#10;    def get_stack(self):&#10;        &quot;&quot;&quot;Get the current stack.&quot;&quot;&quot;&#10;        return self.stack&#10;        &#10;    def connect_stack(self):&#10;        &quot;&quot;&quot;Connect to stack signals.&quot;&quot;&quot;&#10;        if not self.stack:&#10;            return&#10;            &#10;        self.stack.connect(&quot;add&quot;, self.on_child_added)&#10;        self.stack.connect(&quot;remove&quot;, self.on_child_removed)&#10;        self.stack.connect(&quot;notify::visible-child&quot;, self.on_visible_child_changed)&#10;        &#10;        # Add existing children&#10;        for child in self.stack.get_children():&#10;            self.add_perspective_row(child)&#10;            &#10;    def disconnect_stack(self):&#10;        &quot;&quot;&quot;Disconnect from stack signals.&quot;&quot;&quot;&#10;        if not self.stack:&#10;            return&#10;            &#10;        # Clear all rows&#10;        for child in self.list_box.get_children():&#10;            child.destroy()&#10;            &#10;        # Disconnect signals&#10;        handlers = [&#10;            self.stack.handler_find(self.on_child_added),&#10;            self.stack.handler_find(self.on_child_removed),&#10;            self.stack.handler_find(self.on_visible_child_changed)&#10;        ]&#10;        &#10;        for handler_id in handlers:&#10;            if handler_id:&#10;                self.stack.disconnect(handler_id)&#10;                &#10;        self.stack = None&#10;        &#10;    def add_perspective_row(self, perspective):&#10;        &quot;&quot;&quot;Add a row for a perspective to the list.&quot;&quot;&quot;&#10;        # Check if this is a valid perspective&#10;        if not hasattr(perspective, &quot;get_id&quot;) or not hasattr(perspective, &quot;get_title&quot;):&#10;            return&#10;            &#10;        # Skip early perspectives&#10;        if hasattr(perspective, &quot;is_early&quot;) and perspective.is_early():&#10;            return&#10;            &#10;        # Create a new row&#10;        row = Gtk.ListBoxRow()&#10;        row.set_can_focus(False)&#10;        row.set_selectable(False)&#10;        &#10;        # Set perspective data on the row&#10;        row.perspective_id = perspective.get_id()&#10;        row.perspective_priority = perspective.get_priority() if hasattr(perspective, &quot;get_priority&quot;) else 0&#10;        &#10;        # Create a box for the row content&#10;        box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=6)&#10;        row.add(box)&#10;        &#10;        # Add icon&#10;        icon_name = perspective.get_icon_name() if hasattr(perspective, &quot;get_icon_name&quot;) else &quot;application-x-executable-symbolic&quot;&#10;        image = Gtk.Image.new_from_icon_name(icon_name, Gtk.IconSize.MENU)&#10;        box.pack_start(image, False, False, 0)&#10;        &#10;        # Add title&#10;        title = perspective.get_title()&#10;        label = Gtk.Label(label=title)&#10;        label.set_xalign(0.0)&#10;        label.set_hexpand(True)&#10;        box.pack_start(label, True, True, 0)&#10;        &#10;        # Add accelerator if available&#10;        if hasattr(perspective, &quot;get_accelerator&quot;):&#10;            accel = perspective.get_accelerator()&#10;            if accel:&#10;                key, mods = Gtk.accelerator_parse(accel)&#10;                accel_label = Gtk.accelerator_get_label(key, mods)&#10;                &#10;                accel_widget = Gtk.Label(label=accel_label)&#10;                accel_widget.get_style_context().add_class(&quot;dim-label&quot;)&#10;                accel_widget.get_style_context().add_class(&quot;accel&quot;)&#10;                accel_widget.set_xalign(0.0)&#10;                &#10;                box.pack_end(accel_widget, False, False, 0)&#10;                self.accel_size_group.add_widget(accel_widget)&#10;        &#10;        # Show all widgets in the row&#10;        row.show_all()&#10;        &#10;        # Add the row to the list box&#10;        self.list_box.add(row)&#10;        &#10;        # Sort the list box&#10;        self.list_box.set_sort_func(self.sort_rows)&#10;        &#10;    def sort_rows(self, row1, row2):&#10;        &quot;&quot;&quot;Sort rows based on perspective priority.&quot;&quot;&quot;&#10;        priority1 = getattr(row1, &quot;perspective_priority&quot;, 0)&#10;        priority2 = getattr(row2, &quot;perspective_priority&quot;, 0)&#10;        return priority1 - priority2&#10;        &#10;    def remove_perspective_row(self, perspective):&#10;        &quot;&quot;&quot;Remove a perspective row from the list.&quot;&quot;&quot;&#10;        if not hasattr(perspective, &quot;get_id&quot;):&#10;            return&#10;            &#10;        perspective_id = perspective.get_id()&#10;        &#10;        # Find and remove the row with matching perspective_id&#10;        for row in self.list_box.get_children():&#10;            if getattr(row, &quot;perspective_id&quot;, None) == perspective_id:&#10;                row.destroy()&#10;                break&#10;                &#10;    def on_child_added(self, stack, child):&#10;        &quot;&quot;&quot;Handle when a child is added to the stack.&quot;&quot;&quot;&#10;        self.add_perspective_row(child)&#10;        &#10;    def on_child_removed(self, stack, child):&#10;        &quot;&quot;&quot;Handle when a child is removed from the stack.&quot;&quot;&quot;&#10;        self.remove_perspective_row(child)&#10;        &#10;    def on_visible_child_changed(self, stack, param):&#10;        &quot;&quot;&quot;Handle when the visible child changes.&quot;&quot;&quot;&#10;        child = stack.get_visible_child()&#10;        &#10;        if hasattr(child, &quot;get_icon_name&quot;):&#10;            icon_name = child.get_icon_name()&#10;            self.image.set_from_icon_name(icon_name, Gtk.IconSize.BUTTON)&#10;            &#10;    def on_row_activated(self, list_box, row):&#10;        &quot;&quot;&quot;Handle when a row is activated (clicked).&quot;&quot;&quot;&#10;        perspective_id = getattr(row, &quot;perspective_id&quot;, None)&#10;        &#10;        if perspective_id:&#10;            # Find the workbench (parent container)&#10;            parent = self.get_parent()&#10;            while parent and not hasattr(parent, &quot;set_visible_perspective_name&quot;):&#10;                parent = parent.get_parent()&#10;                &#10;            # Switch to the selected perspective&#10;            if parent and hasattr(parent, &quot;set_visible_perspective_name&quot;):&#10;                parent.set_visible_perspective_name(perspective_id)&#10;                self.popover.popdown()&#10;&#10;# Example usage:&#10;if __name__ == &quot;__main__&quot;:&#10;    class SimplePerspective(Gtk.Box):&#10;        def __init__(self, title, icon_name, priority=0, accel=None):&#10;            super().__init__()&#10;            self.title = title&#10;            self.icon_name = icon_name&#10;            self.id = title.lower().replace(&quot; &quot;, &quot;-&quot;)&#10;            self.priority = priority&#10;            self.accel = accel&#10;            &#10;        def get_id(self):&#10;            return self.id&#10;            &#10;        def get_title(self):&#10;            return self.title&#10;            &#10;        def get_icon_name(self):&#10;            return self.icon_name&#10;            &#10;        def get_priority(self):&#10;            return self.priority&#10;            &#10;        def get_accelerator(self):&#10;            return self.accel&#10;            &#10;        def is_early(self):&#10;            return False&#10;    &#10;    class DemoWindow(Gtk.Window):&#10;        def __init__(self):&#10;            super().__init__(title=&quot;Perspective Menu Demo&quot;)&#10;            self.set_default_size(800, 600)&#10;            self.connect(&quot;destroy&quot;, Gtk.main_quit)&#10;            &#10;            header_bar = Gtk.HeaderBar()&#10;            header_bar.set_show_close_button(True)&#10;            header_bar.set_title(&quot;Perspective Menu Demo&quot;)&#10;            self.set_titlebar(header_bar)&#10;            &#10;            # Create the stack&#10;            self.stack = Gtk.Stack()&#10;            &#10;            # Create the menu button&#10;            menu_button = PerspectiveMenuButton()&#10;            menu_button.set_stack(self.stack)&#10;            header_bar.pack_end(menu_button)&#10;            &#10;            # Add some perspectives to the stack&#10;            perspectives = [&#10;                SimplePerspective(&quot;Editor&quot;, &quot;text-editor-symbolic&quot;, 100, &quot;&lt;Alt&gt;1&quot;),&#10;                SimplePerspective(&quot;Terminal&quot;, &quot;utilities-terminal-symbolic&quot;, 200, &quot;&lt;Alt&gt;2&quot;),&#10;                SimplePerspective(&quot;Build&quot;, &quot;system-run-symbolic&quot;, 300, &quot;&lt;Alt&gt;3&quot;),&#10;                SimplePerspective(&quot;Debug&quot;, &quot;debug-symbolic&quot;, 400, &quot;&lt;Alt&gt;4&quot;),&#10;                SimplePerspective(&quot;Search&quot;, &quot;edit-find-symbolic&quot;, 500, &quot;&lt;Alt&gt;5&quot;)&#10;            ]&#10;            &#10;            for p in perspectives:&#10;                label = Gtk.Label(label=f&quot;This is the {p.get_title()} perspective&quot;)&#10;                p.add(label)&#10;                self.stack.add_named(p, p.get_id())&#10;            &#10;            self.add(self.stack)&#10;            self.show_all()&#10;            &#10;        def set_visible_perspective_name(self, name):&#10;            self.stack.set_visible_child_name(name)&#10;    &#10;    win = DemoWindow()&#10;    Gtk.main()&#10;```&#10;&#10;This Python implementation replicates the functionality of the C code:&#10;&#10;1. It creates a `PerspectiveMenuButton` class derived from `Gtk.MenuButton`&#10;2. The button displays a popover containing a list of perspectives&#10;3. Each perspective is represented as a row with an icon, title, and optional keyboard accelerator&#10;4. The rows are sorted by priority&#10;5. When a row is clicked, it switches to that perspective&#10;6. The button updates its icon to match the currently visible perspective&#10;&#10;The example code at the bottom shows how to use this in a simple application with multiple perspectives and a header bar." />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="attachments">
+                  <list>
+                    <SerializedChatAttachment>
+                      <option name="name" value="Project View" />
+                      <option name="text" value="Project View content:&#10;```&#10;gnome-builder&#10; .idea&#10; build&#10; contrib&#10; data&#10; doc&#10; help&#10; libide&#10; libidemm&#10; plugins&#10;  autotools&#10;  autotools-templates&#10;  build-tools&#10;   theme&#10;   build-tools.plugin&#10;   configure.ac&#10;   gbp-build-configuration-row.c&#10;   gbp-build-configuration-row.h&#10;   gbp-build-configuration-row.ui&#10;   gbp-build-configuration-view.c&#10;   gbp-build-configuration-view.h&#10;   gbp-build-configuration-view.ui&#10;   gbp-build-log-panel.c&#10;   gbp-build-log-panel.h&#10;   gbp-build-log-panel.ui&#10;   gbp-build-panel.c&#10;   gbp-build-panel.h&#10;   gbp-build-panel.ui&#10;   gbp-build-perspective.c&#10;   gbp-build-perspective.h&#10;   gbp-build-perspective.ui&#10;   gbp-build-plugin.c&#10;   gbp-build-tool.c&#10;   gbp-build-tool.h&#10;   gbp-build-tools.gresource.xml&#10;   gbp-build-workbench-addin.c&#10;   gbp-build-workbench-addin.h&#10;   ide-environment-editor.c&#10;   ide-environment-editor.h&#10;   ide-environment-editor-row.c&#10;   ide-environment-editor-row.h&#10;   ide-environment-editor-row.ui&#10;   Makefile.am&#10;   PerspectiveMenuButton.py&#10;  c-pack&#10;  cargo&#10;  clang&#10;  color-picker&#10;  command-bar&#10;  comment-code&#10;  contributing&#10;  create-project&#10;  ctags&#10;  devhelp&#10;  file-search&#10;  flatpak&#10;  fpaste&#10;  gcc&#10;  gettext&#10;  git&#10;  gnome-code-assistance&#10;  hello-cpp&#10;  html-completion&#10;  html-preview&#10;  jedi&#10;  jhbuild&#10;  meson&#10;  mingw&#10;  project-tree&#10;  python-gi-imports-completion&#10;  python-pack&#10;  quick-highlight&#10;  rust-langserv&#10;  support&#10;  symbol-tree&#10;  sysmon&#10;  sysprof&#10;  terminal&#10;  todo&#10;  vala-pack&#10;  xml-pack&#10;  Makefile.am&#10;  Makefile.plugin&#10; po&#10; src&#10; tests&#10; tools&#10; .buildconfig&#10; .editorconfig&#10; ARTISTS&#10; AUTHORS&#10; autogen.sh&#10; configure.ac&#10; CONTRIBUTING.md&#10; COPYING&#10; git.mk&#10; gnome-builder.doap&#10; Makefile.am&#10; NEWS&#10; README&#10;External Libraries&#10;Scratches and Consoles&#10;```" />
+                    </SerializedChatAttachment>
+                  </list>
+                </option>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=595337de-a872-4ca0-804e-b9453ca35a8f)" />
+                <option name="displayContent" value="and the corresponding ui iles" />
+                <option name="internalContent" value="and the corresponding ui iles" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="UUID(uuid=e3c1ac1a-d759-482e-be75-4136494008cd)" />
+                <option name="displayContent" value="Based on the UI file I found, here's how you would create the corresponding UI for the hamburger menu popover in Python:&#10;&#10;```python&#10;# PerspectiveMenuButton.py - A GTK+ perspective menu button with popover&#10;&#10;import gi&#10;gi.require_version('Gtk', '3.0')&#10;from gi.repository import Gtk, GObject, Gdk&#10;&#10;class PerspectiveMenuButton(Gtk.MenuButton):&#10;    &quot;&quot;&quot;A button that displays a popover with a list of perspectives.&quot;&quot;&quot;&#10;    &#10;    __gtype_name__ = &quot;PerspectiveMenuButton&quot;&#10;    &#10;    def __init__(self):&#10;        super().__init__()&#10;        &#10;        # Initialize private variables&#10;        self.stack = None&#10;        &#10;        # Create UI from XML string&#10;        self.build_ui()&#10;        &#10;    def build_ui(self):&#10;        # Create the popover&#10;        self.popover = Gtk.Popover()&#10;        self.popover.get_style_context().add_class(&quot;popover-selector&quot;)&#10;        self.set_popover(self.popover)&#10;        &#10;        # Create the list box&#10;        self.list_box = Gtk.ListBox()&#10;        self.list_box.set_visible(True)&#10;        self.popover.add(self.list_box)&#10;        &#10;        # Create the button content&#10;        box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)&#10;        box.set_spacing(8)&#10;        box.set_margin_start(6)&#10;        box.set_margin_end(6)&#10;        box.get_style_context().add_class(&quot;image-button&quot;)&#10;        &#10;        # Create the main icon&#10;        self.image = Gtk.Image()&#10;        self.image.set_visible(True)&#10;        box.pack_start(self.image, False, False, 0)&#10;        &#10;        # Create the dropdown arrow&#10;        arrow = Gtk.Image.new_from_icon_name(&quot;pan-down-symbolic&quot;, Gtk.IconSize.MENU)&#10;        arrow.set_visible(True)&#10;        box.pack_start(arrow, False, False, 0)&#10;        &#10;        # Add the box to the button&#10;        box.set_visible(True)&#10;        self.add(box)&#10;        &#10;        # Create the accelerator size group&#10;        self.accel_size_group = Gtk.SizeGroup(Gtk.SizeGroupMode.HORIZONTAL)&#10;        &#10;        # Connect signals&#10;        self.list_box.connect(&quot;row-activated&quot;, self.on_row_activated)&#10;```&#10;&#10;If you want to use the UI file directly instead of building the UI in code, you can use Gtk.Builder like this:&#10;&#10;```python&#10;# PerspectiveMenuButton.py - A GTK+ perspective menu button with popover&#10;&#10;import gi&#10;gi.require_version('Gtk', '3.0')&#10;from gi.repository import Gtk, GObject, Gdk&#10;&#10;UI_XML = &quot;&quot;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;interface&gt;&#10;  &lt;object class=&quot;GtkPopover&quot; id=&quot;popover&quot;&gt;&#10;    &lt;style&gt;&#10;      &lt;class name=&quot;popover-selector&quot;/&gt;&#10;    &lt;/style&gt;&#10;    &lt;child&gt;&#10;      &lt;object class=&quot;GtkListBox&quot; id=&quot;list_box&quot;&gt;&#10;        &lt;property name=&quot;visible&quot;&gt;true&lt;/property&gt;&#10;      &lt;/object&gt;&#10;    &lt;/child&gt;&#10;  &lt;/object&gt;&#10;  &lt;template class=&quot;PerspectiveMenuButton&quot; parent=&quot;GtkMenuButton&quot;&gt;&#10;    &lt;property name=&quot;popover&quot;&gt;popover&lt;/property&gt;&#10;    &lt;child&gt;&#10;      &lt;object class=&quot;GtkBox&quot;&gt;&#10;        &lt;property name=&quot;orientation&quot;&gt;horizontal&lt;/property&gt;&#10;        &lt;property name=&quot;margin-end&quot;&gt;6&lt;/property&gt;&#10;        &lt;property name=&quot;margin-start&quot;&gt;6&lt;/property&gt;&#10;        &lt;property name=&quot;spacing&quot;&gt;8&lt;/property&gt;&#10;        &lt;property name=&quot;visible&quot;&gt;true&lt;/property&gt;&#10;        &lt;style&gt;&#10;          &lt;class name=&quot;image-button&quot;/&gt;&#10;        &lt;/style&gt;&#10;        &lt;child&gt;&#10;          &lt;object class=&quot;GtkImage&quot; id=&quot;image&quot;&gt;&#10;            &lt;property name=&quot;visible&quot;&gt;true&lt;/property&gt;&#10;          &lt;/object&gt;&#10;        &lt;/child&gt;&#10;        &lt;child&gt;&#10;          &lt;object class=&quot;GtkImage&quot;&gt;&#10;            &lt;property name=&quot;icon-name&quot;&gt;pan-down-symbolic&lt;/property&gt;&#10;            &lt;property name=&quot;visible&quot;&gt;true&lt;/property&gt;&#10;          &lt;/object&gt;&#10;        &lt;/child&gt;&#10;      &lt;/object&gt;&#10;    &lt;/child&gt;&#10;  &lt;/template&gt;&#10;  &lt;object class=&quot;GtkSizeGroup&quot; id=&quot;accel_size_group&quot;&gt;&#10;    &lt;property name=&quot;mode&quot;&gt;horizontal&lt;/property&gt;&#10;  &lt;/object&gt;&#10;&lt;/interface&gt;&#10;&quot;&quot;&quot;&#10;&#10;@Gtk.Template(string=UI_XML)&#10;class PerspectiveMenuButton(Gtk.MenuButton):&#10;    &quot;&quot;&quot;A button that displays a popover with a list of perspectives.&quot;&quot;&quot;&#10;    &#10;    __gtype_name__ = &quot;PerspectiveMenuButton&quot;&#10;    &#10;    popover = Gtk.Template.Child()&#10;    list_box = Gtk.Template.Child()&#10;    image = Gtk.Template.Child()&#10;    accel_size_group = Gtk.Template.Child()&#10;    &#10;    def __init__(self):&#10;        super().__init__()&#10;        &#10;        # Initialize private variables&#10;        self.stack = None&#10;        &#10;        # Connect signals&#10;        self.list_box.connect(&quot;row-activated&quot;, self.on_row_activated)&#10;```&#10;&#10;Note: The template approach requires PyGObject 3.30 or newer. If you're using an older version, you'll need to use the first approach or load the UI file with Gtk.Builder.&#10;&#10;Both of these implementations match the UI definition in the original `ide-perspective-menu-button.ui` file. The main interface elements are:&#10;&#10;1. A popover containing a list box&#10;2. A button with:&#10;   - A main icon (that changes based on the current perspective)&#10;   - A dropdown arrow icon&#10;3. A size group to align the accelerator labels" />
+                <option name="internalContent" value="Based on the UI file I found, here's how you would create the corresponding UI for the hamburger menu popover in Python:&#10;&#10;```python&#10;# PerspectiveMenuButton.py - A GTK+ perspective menu button with popover&#10;&#10;import gi&#10;gi.require_version('Gtk', '3.0')&#10;from gi.repository import Gtk, GObject, Gdk&#10;&#10;class PerspectiveMenuButton(Gtk.MenuButton):&#10;    &quot;&quot;&quot;A button that displays a popover with a list of perspectives.&quot;&quot;&quot;&#10;    &#10;    __gtype_name__ = &quot;PerspectiveMenuButton&quot;&#10;    &#10;    def __init__(self):&#10;        super().__init__()&#10;        &#10;        # Initialize private variables&#10;        self.stack = None&#10;        &#10;        # Create UI from XML string&#10;        self.build_ui()&#10;        &#10;    def build_ui(self):&#10;        # Create the popover&#10;        self.popover = Gtk.Popover()&#10;        self.popover.get_style_context().add_class(&quot;popover-selector&quot;)&#10;        self.set_popover(self.popover)&#10;        &#10;        # Create the list box&#10;        self.list_box = Gtk.ListBox()&#10;        self.list_box.set_visible(True)&#10;        self.popover.add(self.list_box)&#10;        &#10;        # Create the button content&#10;        box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)&#10;        box.set_spacing(8)&#10;        box.set_margin_start(6)&#10;        box.set_margin_end(6)&#10;        box.get_style_context().add_class(&quot;image-button&quot;)&#10;        &#10;        # Create the main icon&#10;        self.image = Gtk.Image()&#10;        self.image.set_visible(True)&#10;        box.pack_start(self.image, False, False, 0)&#10;        &#10;        # Create the dropdown arrow&#10;        arrow = Gtk.Image.new_from_icon_name(&quot;pan-down-symbolic&quot;, Gtk.IconSize.MENU)&#10;        arrow.set_visible(True)&#10;        box.pack_start(arrow, False, False, 0)&#10;        &#10;        # Add the box to the button&#10;        box.set_visible(True)&#10;        self.add(box)&#10;        &#10;        # Create the accelerator size group&#10;        self.accel_size_group = Gtk.SizeGroup(Gtk.SizeGroupMode.HORIZONTAL)&#10;        &#10;        # Connect signals&#10;        self.list_box.connect(&quot;row-activated&quot;, self.on_row_activated)&#10;```&#10;&#10;If you want to use the UI file directly instead of building the UI in code, you can use Gtk.Builder like this:&#10;&#10;```python&#10;# PerspectiveMenuButton.py - A GTK+ perspective menu button with popover&#10;&#10;import gi&#10;gi.require_version('Gtk', '3.0')&#10;from gi.repository import Gtk, GObject, Gdk&#10;&#10;UI_XML = &quot;&quot;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;interface&gt;&#10;  &lt;object class=&quot;GtkPopover&quot; id=&quot;popover&quot;&gt;&#10;    &lt;style&gt;&#10;      &lt;class name=&quot;popover-selector&quot;/&gt;&#10;    &lt;/style&gt;&#10;    &lt;child&gt;&#10;      &lt;object class=&quot;GtkListBox&quot; id=&quot;list_box&quot;&gt;&#10;        &lt;property name=&quot;visible&quot;&gt;true&lt;/property&gt;&#10;      &lt;/object&gt;&#10;    &lt;/child&gt;&#10;  &lt;/object&gt;&#10;  &lt;template class=&quot;PerspectiveMenuButton&quot; parent=&quot;GtkMenuButton&quot;&gt;&#10;    &lt;property name=&quot;popover&quot;&gt;popover&lt;/property&gt;&#10;    &lt;child&gt;&#10;      &lt;object class=&quot;GtkBox&quot;&gt;&#10;        &lt;property name=&quot;orientation&quot;&gt;horizontal&lt;/property&gt;&#10;        &lt;property name=&quot;margin-end&quot;&gt;6&lt;/property&gt;&#10;        &lt;property name=&quot;margin-start&quot;&gt;6&lt;/property&gt;&#10;        &lt;property name=&quot;spacing&quot;&gt;8&lt;/property&gt;&#10;        &lt;property name=&quot;visible&quot;&gt;true&lt;/property&gt;&#10;        &lt;style&gt;&#10;          &lt;class name=&quot;image-button&quot;/&gt;&#10;        &lt;/style&gt;&#10;        &lt;child&gt;&#10;          &lt;object class=&quot;GtkImage&quot; id=&quot;image&quot;&gt;&#10;            &lt;property name=&quot;visible&quot;&gt;true&lt;/property&gt;&#10;          &lt;/object&gt;&#10;        &lt;/child&gt;&#10;        &lt;child&gt;&#10;          &lt;object class=&quot;GtkImage&quot;&gt;&#10;            &lt;property name=&quot;icon-name&quot;&gt;pan-down-symbolic&lt;/property&gt;&#10;            &lt;property name=&quot;visible&quot;&gt;true&lt;/property&gt;&#10;          &lt;/object&gt;&#10;        &lt;/child&gt;&#10;      &lt;/object&gt;&#10;    &lt;/child&gt;&#10;  &lt;/template&gt;&#10;  &lt;object class=&quot;GtkSizeGroup&quot; id=&quot;accel_size_group&quot;&gt;&#10;    &lt;property name=&quot;mode&quot;&gt;horizontal&lt;/property&gt;&#10;  &lt;/object&gt;&#10;&lt;/interface&gt;&#10;&quot;&quot;&quot;&#10;&#10;@Gtk.Template(string=UI_XML)&#10;class PerspectiveMenuButton(Gtk.MenuButton):&#10;    &quot;&quot;&quot;A button that displays a popover with a list of perspectives.&quot;&quot;&quot;&#10;    &#10;    __gtype_name__ = &quot;PerspectiveMenuButton&quot;&#10;    &#10;    popover = Gtk.Template.Child()&#10;    list_box = Gtk.Template.Child()&#10;    image = Gtk.Template.Child()&#10;    accel_size_group = Gtk.Template.Child()&#10;    &#10;    def __init__(self):&#10;        super().__init__()&#10;        &#10;        # Initialize private variables&#10;        self.stack = None&#10;        &#10;        # Connect signals&#10;        self.list_box.connect(&quot;row-activated&quot;, self.on_row_activated)&#10;```&#10;&#10;Note: The template approach requires PyGObject 3.30 or newer. If you're using an older version, you'll need to use the first approach or load the UI file with Gtk.Builder.&#10;&#10;Both of these implementations match the UI definition in the original `ide-perspective-menu-button.ui` file. The main interface elements are:&#10;&#10;1. A popover containing a list box&#10;2. A button with:&#10;   - A main icon (that changes based on the current perspective)&#10;   - A dropdown arrow icon&#10;3. A size group to align the accelerator labels" />
+              </SerializedChatMessage>
+            </list>
+          </option>
+          <option name="modifiedAt" value="1747655765361" />
+          <option name="statisticInformation">
+            <ChatStatisticInformation>
+              <option name="sourceActionType" value="NEW_CHAT_ON_START" />
+              <option name="timestamp" value="1747655765361" />
+            </ChatStatisticInformation>
+          </option>
+          <option name="title">
+            <SerializedChatTitle>
+              <option name="custom" value="true" />
+              <option name="text" value="Hamburger Menu Popover Code Inquiry" />
+            </SerializedChatTitle>
+          </option>
+          <option name="uid" value="fdfb334e-4bb8-4c3d-a57d-e83e655516d8" />
+        </SerializedChat>
+      </list>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="2lgu2hnqvdwui" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/libide/workbench/ide-perspective-menu-button.c">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"ide-perspective-menu-button.c","foregroundColor":-4473925,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,70,10,20,102,105,108,101,84,121,112,101,115,47,99,117,115,116,111,109,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-96,-6,-105,-89,6,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/build-tools/PerspectiveMenuButton.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="46">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"PerspectiveMenuButton.py","foregroundColor":-3053734,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"d1675a"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "C++": {
+      "usageCount": 2,
+      "lastUsed": 1747730005928
+    },
+    "Python": {
+      "usageCount": 2,
+      "lastUsed": 1747730006004
+    }
+  }
+}]]></component>
+  <component name="IdeDocumentHistory">{}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="cc9d0fbf-97f5-481e-aaf1-0fefcc024774">
+    <option name="files">
+      <option value="$PROJECT_DIR$/../codepdf/src/main/java/org/example/recreate_java_file.ipynb" />
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Python">
+      <summary usageCount="2" lastUsage="1747730006004" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gnome-builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gnome-builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gnome-builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/build-tools}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="gnome-builder" />
+            <item name="gnome-builder" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="gnome-builder" />
+              <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/build}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/contrib" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="contrib" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/contrib}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/data" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="data" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/data}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/doc" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="doc" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/doc}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/help" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="help" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/help}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/libide" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="libide" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/libide}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/libidemm" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="libidemm" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/libidemm}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/plugins" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="plugins" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/autotools" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="autotools" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/autotools}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/autotools-templates" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="autotools-templates" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/autotools-templates}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build-tools" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/build-tools}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/theme" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="theme" />
+                    <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/build-tools/theme}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/build-tools.plugin" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="build-tools.plugin" />
+                    <item name="build-tools.plugin" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/configure.ac" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="configure.ac" />
+                    <item name="configure.ac" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-configuration-row.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-configuration-row.c" />
+                    <item name="gbp-build-configuration-row.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-configuration-row.h" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-configuration-row.h" />
+                    <item name="gbp-build-configuration-row.h" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-configuration-row.ui" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-configuration-row.ui" />
+                    <item name="gbp-build-configuration-row.ui" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-configuration-view.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-configuration-view.c" />
+                    <item name="gbp-build-configuration-view.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-configuration-view.h" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-configuration-view.h" />
+                    <item name="gbp-build-configuration-view.h" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-configuration-view.ui" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-configuration-view.ui" />
+                    <item name="gbp-build-configuration-view.ui" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-log-panel.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-log-panel.c" />
+                    <item name="gbp-build-log-panel.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-log-panel.h" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-log-panel.h" />
+                    <item name="gbp-build-log-panel.h" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-log-panel.ui" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-log-panel.ui" />
+                    <item name="gbp-build-log-panel.ui" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-panel.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-panel.c" />
+                    <item name="gbp-build-panel.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-panel.h" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-panel.h" />
+                    <item name="gbp-build-panel.h" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-panel.ui" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-panel.ui" />
+                    <item name="gbp-build-panel.ui" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-perspective.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-perspective.c" />
+                    <item name="gbp-build-perspective.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-perspective.h" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-perspective.h" />
+                    <item name="gbp-build-perspective.h" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-perspective.ui" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-perspective.ui" />
+                    <item name="gbp-build-perspective.ui" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-plugin.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-plugin.c" />
+                    <item name="gbp-build-plugin.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-tool.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-tool.c" />
+                    <item name="gbp-build-tool.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-tool.h" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-tool.h" />
+                    <item name="gbp-build-tool.h" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-tools.gresource.xml" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-tools.gresource.xml" />
+                    <item name="gbp-build-tools.gresource.xml" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-workbench-addin.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-workbench-addin.c" />
+                    <item name="gbp-build-workbench-addin.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/gbp-build-workbench-addin.h" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gbp-build-workbench-addin.h" />
+                    <item name="gbp-build-workbench-addin.h" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/ide-environment-editor.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="ide-environment-editor.c" />
+                    <item name="ide-environment-editor.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/ide-environment-editor.h" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="ide-environment-editor.h" />
+                    <item name="ide-environment-editor.h" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/ide-environment-editor-row.c" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="ide-environment-editor-row.c" />
+                    <item name="ide-environment-editor-row.c" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/ide-environment-editor-row.h" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="ide-environment-editor-row.h" />
+                    <item name="ide-environment-editor-row.h" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/ide-environment-editor-row.ui" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="ide-environment-editor-row.ui" />
+                    <item name="ide-environment-editor-row.ui" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/Makefile.am" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="Makefile.am" />
+                    <item name="Makefile.am" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/plugins/build-tools/PerspectiveMenuButton.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="PerspectiveMenuButton.py" />
+                    <item name="PerspectiveMenuButton.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/c-pack" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="c-pack" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/c-pack}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/cargo" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="cargo" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/cargo}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/clang" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="clang" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/clang}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/color-picker" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="color-picker" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/color-picker}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/command-bar" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="command-bar" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/command-bar}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/comment-code" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="comment-code" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/comment-code}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/contributing" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="contributing" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/contributing}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/create-project" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="create-project" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/create-project}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/ctags" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="ctags" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/ctags}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/devhelp" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="devhelp" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/devhelp}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/file-search" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="file-search" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/file-search}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/flatpak" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="flatpak" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/flatpak}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/fpaste" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="fpaste" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/fpaste}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/gcc" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="gcc" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/gcc}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/gettext" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="gettext" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/gettext}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/git" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="git" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/git}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/gnome-code-assistance" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="gnome-code-assistance" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/gnome-code-assistance}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/hello-cpp" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="hello-cpp" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/hello-cpp}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/html-completion" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="html-completion" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/html-completion}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/html-preview" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="html-preview" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/html-preview}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/jedi" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="jedi" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/jedi}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/jhbuild" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="jhbuild" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/jhbuild}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/meson" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="meson" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/meson}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/mingw" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="mingw" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/mingw}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/project-tree" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="project-tree" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/project-tree}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/python-gi-imports-completion" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="python-gi-imports-completion" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/python-gi-imports-completion}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/python-pack" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="python-pack" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/python-pack}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/quick-highlight" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="quick-highlight" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/quick-highlight}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/rust-langserv" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="rust-langserv" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/rust-langserv}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/support" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="support" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/support}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/symbol-tree" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="symbol-tree" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/symbol-tree}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/sysmon" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="sysmon" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/sysmon}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/sysprof" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="sysprof" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/sysprof}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/terminal" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="terminal" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/terminal}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/todo" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="todo" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/todo}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/vala-pack" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="vala-pack" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/vala-pack}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/xml-pack" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="xml-pack" />
+                  <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/plugins/xml-pack}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/Makefile.am" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="Makefile.am" />
+                  <item name="Makefile.am" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/plugins/Makefile.plugin" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="Makefile.plugin" />
+                  <item name="Makefile.plugin" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/po" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="po" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/po}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/src" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/src}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/tests" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="tests" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/tests}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/tools" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="tools" />
+                <item name="dir{file:///home/xxx/IdeaProjects/gnome-builder/tools}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.buildconfig" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text=".buildconfig" />
+                <item name=".buildconfig" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.editorconfig" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/editorConfig.svg" iconPlugin="com.intellij" isLeaf="true" text=".editorconfig" />
+                <item name=".editorconfig" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/ARTISTS" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="ARTISTS" />
+                <item name="ARTISTS" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/AUTHORS" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="AUTHORS" />
+                <item name="AUTHORS" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/autogen.sh" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/shell.svg" iconPlugin="com.intellij" isLeaf="true" text="autogen.sh" />
+                <item name="autogen.sh" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/configure.ac" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="configure.ac" />
+                <item name="configure.ac" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/CONTRIBUTING.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="CONTRIBUTING.md" />
+                <item name="CONTRIBUTING.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/COPYING" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="COPYING" />
+                <item name="COPYING" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/git.mk" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="git.mk" />
+                <item name="git.mk" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gnome-builder.doap" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gnome-builder.doap" />
+                <item name="gnome-builder.doap" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Makefile.am" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="Makefile.am" />
+                <item name="Makefile.am" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/NEWS" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="NEWS" />
+                <item name="NEWS" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/README" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="README" />
+                <item name="README" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9383000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3201477" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info active="true" anchor="right" id="AIAssistant" order="1" visible="true" weight="0.25791138" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Python Console" order="5" />
+      <window_info anchor="right" id="ElectroJunToolWindow" order="6" />
+      <unified_weights left="0.3201477" right="0.25791138" />
+    </layoutV2>
+    <recentWindows>
+      <value>AIAssistant</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="148" key="SettingsEditor" timestamp="1747730022089">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="74" width="561" height="409" key="SettingsEditor.ideScale=50" timestamp="1747655640824">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state x="0" y="74" width="561" height="409" key="SettingsEditor.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747655640824" />
+    <state x="0" y="148" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080/5760.0.1920.1080@0.0.1920.1080" timestamp="1747730022089" />
+    <state x="560" y="257" key="new project wizard" timestamp="1747730035596">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="257" key="new project wizard/0.0.1920.1080/1920.0.1920.1080/5760.0.1920.1080@0.0.1920.1080" timestamp="1747730035596" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/libide/workbench/ide-perspective-menu-button.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/build-tools/PerspectiveMenuButton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>openjdk-24</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gnome-builder</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

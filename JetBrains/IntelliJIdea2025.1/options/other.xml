@@ -1,0 +1,123 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Oracle OpenJDK 24.0.1" />
+        <option name="installDir" value="/home/xxx/.jdks/openjdk-24.0.1" />
+        <option name="sha256" value="5d78a1c35dc36b5435addd908f5bc8d714368635b5adc6fd0ea6784d4d00db83" />
+        <option name="url" value="https://download.java.net/java/GA/jdk24.0.1/24a58e0e276943138bf3e963e6291ac2/9/GPL/openjdk-24.0.1_linux-x64_bin.tar.gz" />
+        <option name="versionText" value="24.0.1" />
+      </installed-jdk>
+    </option>
+  </component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="13.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "AIHubNotificationManager.lastUsedLicenseType": "ULTIMATE",
+    "FindSplitterProportion": "0.37908497",
+    "InstalledPluginsSearchHistory": "python\npyth",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "8",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "IU-251.23774.435",
+    "NewProjectWizard.generateOnboardingTips": "true",
+    "NewProjectWizard.gitState": "true",
+    "NewProjectWizard.groupIdState": "org.example",
+    "NextRunPlatformUpdateBuild": "IU-251.25410.129",
+    "NextRunPlatformUpdateSelfBuild": "IU-251.23774.435",
+    "NextRunPlatformUpdateVersion": "2025.1.1.1",
+    "Notification.DisplayName-DoNotAsk-vcs.roots.invalid": "Invalid VCS root mapping",
+    "Notification.DoNotAsk-vcs.roots.invalid": "true",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.deprecation.notification": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "SettingsSearchHistory": "help\npython",
+    "TextEditorWithPreview.SplitterProportionKey": "1.0",
+    "WelcomeFeature.SHORT_WELCOME_GUIDE_SHOWN": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "Maven",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "defaultJdkConfigured": "true",
+    "enter_selection_count": "5",
+    "evlsprt3.251": "7",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "251.23774.435",
+    "file.gist.reindex.count": "1",
+    "fileTypeChangedCounter": "3",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "251.23774.435-IJ",
+    "jdk.selected.JAVA_MODULE": "openjdk-24",
+    "junie.showOnboardingTips": "false",
+    "last_opened_file_path": "/home/xxx/.pyenv/versions/3.8.18/bin/python",
+    "llm.installer.last.toolwindow.state": "AI_ASSISTANT",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "onboarding.generation.number": "4",
+    "previousColorScheme": "_@user_Darcula",
+    "project.wizard.group": "NPW.simple-project.Java",
+    "promo.ignore.suggested.ide": "true",
+    "registry.to.advanced.settings.migration.build": "IU-251.23774.435",
+    "terminal.gen.one.option.visible": "false",
+    "ts.lib.d.ts.version": "5.6.3"
+  },
+  "keyToStringList": {
+    "AIHubNotificationManager.gotItNotifications": [
+      "ULTIMATE_QUOTA_EXCEEDED"
+    ],
+    "AIHubNotificationManager.lastAllNotifications": [],
+    "AIHubNotificationManager.notifications": [],
+    "AIHubNotificationManager.seenNotifications": [],
+    "file.chooser.recent.files": [
+      "/home/xxx/Projects/silly/main.py",
+      "/home/xxx/Projects/silly",
+      "/home/xxx/Projects/Setzer",
+      "/home/xxx/software/Setzer2",
+      "/home/xxx/Projects",
+      "/home/xxx/software/SilkTex",
+      "/home/xxx/software/silktex2/Chisel",
+      "/home/xxx/.pyenv/versions/3.8.18/bin/python",
+      "/home/xxx/software/SilkTex/main.py",
+      "/home/xxx/software/SilkTex/setup.py",
+      "/home/xxx/.pyenv/versions/3.8.18/bin/python3.8-gdb.py",
+      "/home/xxx/.pyenv/versions/3.8.18/lib/libpython3.8.so",
+      "/home/xxx/Downloads/openjfx-24.0.1_linux-x64_bin-sdk/javafx-sdk-24.0.1/lib",
+      "/home/xxx/Downloads/openjfx-24.0.1_linux-x64_bin-sdk/javafx-sdk-24.0.1",
+      "/home/xxx/.jdks/.openjdk-24.0.1.intellij",
+      "/home/xxx/.config/ags"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="DrawTM-history" project-path="/home/xxx/IdeaProjects/DrawTM" last-access-time="1746606657927" />
+      <command-history-file filename="codepdf-history1" project-path="/home/xxx/IdeaProjects/codepdf" last-access-time="1747733263623" />
+      <command-history-file filename="Chisel-history" project-path="/home/xxx/software/silktex2/Chisel" last-access-time="1746693062812" />
+      <command-history-file filename="CODEF-history" project-path="/home/xxx/IdeaProjects/CODEF" last-access-time="1747730521253" />
+      <command-history-file filename="SilkTex-history" project-path="/home/xxx/software/SilkTex" last-access-time="1746691114686" />
+      <command-history-file filename="silly-history" project-path="/home/xxx/Projects/silly" last-access-time="1747328007952" />
+      <command-history-file filename="codepdf-history" project-path="/home/xxx/IdeaProjects/codepdf" last-access-time="1747733079461" />
+      <command-history-file filename="SilkTex-history2" project-path="/home/xxx/software/SilkTex" last-access-time="1746691114667" />
+      <command-history-file filename="CODE-history" project-path="/home/xxx/IdeaProjects/CODEF" last-access-time="1747731184029" />
+    </command-history-files>
+  </component>
+</application>

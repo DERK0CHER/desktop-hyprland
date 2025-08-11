@@ -1,0 +1,740 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="silly" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="2lgu2hnqvdwui" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"main.py","foregroundColor":-9922629,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"6897bb"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/setzer/popovers/hamburger_menu/hamburger_menu.py">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"hamburger_menu.py","foregroundColor":-4473925,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/setzer/popovers/hamburger_menu/hamburger_menu_viewgtk.py">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"hamburger_menu_viewgtk.py","foregroundColor":-4473925,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/data/ui/window.blp">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+        <tab><![CDATA[{"tabTitle":"window.blp","foregroundColor":-3053734,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"d1675a"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,73,10,18,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,18,24,101,120,112,117,105,47,102,105,108,101,84,121,112,101,115,47,116,101,120,116,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-122,-48,-19,-85,-2,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setzer/popovers/helpers/popover.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"popover.py","foregroundColor":-9922629,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"6897bb"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,127,10,48,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,112,121,116,104,111,110,70,105,108,101,46,115,118,103,18,50,105,99,111,110,115,47,99,111,109,47,106,101,116,98,114,97,105,110,115,47,112,121,116,104,111,110,47,112,97,114,115,101,114,47,101,120,112,117,105,47,112,121,116,104,111,110,46,115,118,103,26,10,80,121,116,104,111,110,67,111,114,101,40,-53,-109,-42,-7,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "AUTO_DETECTED": {
+      "usageCount": 2,
+      "lastUsed": 1747654555081
+    },
+    "Markdown": {
+      "usageCount": 1,
+      "lastUsed": 1747647667970
+    },
+    "Python": {
+      "usageCount": 8,
+      "lastUsed": 1747654555105
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/xxx/Projects/silly/setzer/popovers/helpers/popover.py&quot;
+  ]
+}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1747647667974" />
+    </language>
+    <language id="Python">
+      <summary usageCount="8" lastUsage="1747654555105" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="silly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/Projects/silly}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/Projects/silly}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/data}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/Projects/silly}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/data}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/data/ui}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/Projects/silly}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/setzer}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/Projects/silly}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/setzer}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/Projects/silly}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/setzer}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/hamburger_menu}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="silly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/xxx/Projects/silly}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/setzer}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/helpers}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="silly" />
+            <item name="silly" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="silly" />
+              <item name="dir{file:///home/xxx/Projects/silly}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.github" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".github" />
+                <item name="dir{file:///home/xxx/Projects/silly/.github}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/xxx/Projects/silly/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/data" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="data" />
+                <item name="dir{file:///home/xxx/Projects/silly/data}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/resources" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="resources" />
+                  <item name="dir{file:///home/xxx/Projects/silly/data/resources}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/ui" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="ui" />
+                  <item name="dir{file:///home/xxx/Projects/silly/data/ui}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/data/ui/window.blp" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="window.blp" />
+                    <item name="window.blp" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/meson.build" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="meson.build" />
+                  <item name="meson.build" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/org.cvfosammmm.Setzer.desktop" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="org.cvfosammmm.Setzer.desktop" />
+                  <item name="org.cvfosammmm.Setzer.desktop" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/org.cvfosammmm.Setzer.metainfo.xml.in" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="org.cvfosammmm.Setzer.metainfo.xml.in" />
+                  <item name="org.cvfosammmm.Setzer.metainfo.xml.in" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/org.cvfosammmm.Setzer.mime.xml" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/xml.svg" iconPlugin="com.intellij" isLeaf="true" text="org.cvfosammmm.Setzer.mime.xml" />
+                  <item name="org.cvfosammmm.Setzer.mime.xml" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/org.cvfosammmm.Setzer.svg" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="org.cvfosammmm.Setzer.svg" />
+                  <item name="org.cvfosammmm.Setzer.svg" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/screenshot.png" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="screenshot.png" />
+                  <item name="screenshot.png" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/data/setzer.1.in" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="setzer.1.in" />
+                  <item name="setzer.1.in" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/out" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="out" />
+                <item name="dir{file:///home/xxx/Projects/silly/out}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/po" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="po" />
+                <item name="dir{file:///home/xxx/Projects/silly/po}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/scripts" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="scripts" />
+                <item name="dir{file:///home/xxx/Projects/silly/scripts}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/setzer" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="setzer" />
+                <item name="dir{file:///home/xxx/Projects/silly/setzer}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/setzer/app" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="app" />
+                  <item name="dir{file:///home/xxx/Projects/silly/setzer/app}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/setzer/dialogs" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="dialogs" />
+                  <item name="dir{file:///home/xxx/Projects/silly/setzer/dialogs}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/setzer/document" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="document" />
+                  <item name="dir{file:///home/xxx/Projects/silly/setzer/document}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/setzer/helpers" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="helpers" />
+                  <item name="dir{file:///home/xxx/Projects/silly/setzer/helpers}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/setzer/keyboard_shortcuts" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="keyboard_shortcuts" />
+                  <item name="dir{file:///home/xxx/Projects/silly/setzer/keyboard_shortcuts}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="popovers" />
+                  <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/context_menu" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="context_menu" />
+                    <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/context_menu}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/document_chooser" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="document_chooser" />
+                    <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/document_chooser}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/document_switcher" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="document_switcher" />
+                    <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/document_switcher}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/hamburger_menu" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="hamburger_menu" />
+                    <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/hamburger_menu}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/hamburger_menu/__init__.py" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
+                      <item name="__init__.py" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/hamburger_menu/hamburger_menu.py" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="hamburger_menu.py" />
+                      <item name="hamburger_menu.py" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/hamburger_menu/hamburger_menu_viewgtk.py" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="hamburger_menu_viewgtk.py" />
+                      <item name="hamburger_menu_viewgtk.py" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/helpers" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="helpers" />
+                    <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/helpers}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/helpers/__init__.py" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
+                      <item name="__init__.py" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/helpers/popover.py" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="popover.py" />
+                      <item name="popover.py" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/helpers/popover_button.py" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="popover_button.py" />
+                      <item name="popover_button.py" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/helpers/popover_menu_builder.py" />
+                        </map>
+                      </attributes>
+                      <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="popover_menu_builder.py" />
+                      <item name="popover_menu_builder.py" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/new_document" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="new_document" />
+                    <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/new_document}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/preview_zoom_level" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="preview_zoom_level" />
+                    <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/preview_zoom_level}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/shortcutsbar" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="shortcutsbar" />
+                    <item name="dir{file:///home/xxx/Projects/silly/setzer/popovers/shortcutsbar}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/__init__.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
+                    <item name="__init__.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/popover_controller.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="popover_controller.py" />
+                    <item name="popover_controller.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/setzer/popovers/popover_manager.py" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="popover_manager.py" />
+                    <item name="popover_manager.py" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/setzer/settings" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="settings" />
+                  <item name="dir{file:///home/xxx/Projects/silly/setzer/settings}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/setzer/widgets" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="widgets" />
+                  <item name="dir{file:///home/xxx/Projects/silly/setzer/widgets}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/setzer/workspace" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="workspace" />
+                  <item name="dir{file:///home/xxx/Projects/silly/setzer/workspace}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/tests" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="tests" />
+                <item name="dir{file:///home/xxx/Projects/silly/tests}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/COPYING" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="COPYING" />
+                <item name="COPYING" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/main.py" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="main.py" />
+                <item name="main.py" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/meson.build" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="meson.build" />
+                <item name="meson.build" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/org.cvfosammmm.Setzer.json" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="org.cvfosammmm.Setzer.json" />
+                <item name="org.cvfosammmm.Setzer.json" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/README.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                <item name="README.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4913000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41964287" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" show_stripe_button="false" weight="0.0631068" />
+      <window_info anchor="bottom" id="Debug" order="8" show_stripe_button="false" weight="0.0631068" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Python Console" order="5" />
+      <window_info anchor="right" id="ElectroJunToolWindow" order="6" />
+      <unified_weights bottom="0.0631068" left="0.41964287" />
+    </layoutV2>
+    <recentWindows>
+      <value>Debug</value>
+      <value>Project</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="14" height="10" key="GridCell.Tab.0.bottom.ideScale=50" timestamp="1747655664495">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="14" height="10" key="GridCell.Tab.0.bottom.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747655664495" />
+    <state width="412" height="0" key="GridCell.Tab.0.bottom.ideScale=80" timestamp="1747654564449">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="412" height="0" key="GridCell.Tab.0.bottom.ideScale=80/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747654564449" />
+    <state width="14" height="10" key="GridCell.Tab.0.center.ideScale=50" timestamp="1747655664495">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="14" height="10" key="GridCell.Tab.0.center.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747655664495" />
+    <state width="412" height="0" key="GridCell.Tab.0.center.ideScale=80" timestamp="1747654564449">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="412" height="0" key="GridCell.Tab.0.center.ideScale=80/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747654564449" />
+    <state width="14" height="10" key="GridCell.Tab.0.left.ideScale=50" timestamp="1747655664495">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="14" height="10" key="GridCell.Tab.0.left.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747655664495" />
+    <state width="412" height="0" key="GridCell.Tab.0.left.ideScale=80" timestamp="1747654564447">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="412" height="0" key="GridCell.Tab.0.left.ideScale=80/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747654564447" />
+    <state width="14" height="10" key="GridCell.Tab.0.right.ideScale=50" timestamp="1747655664495">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="14" height="10" key="GridCell.Tab.0.right.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747655664495" />
+    <state width="412" height="0" key="GridCell.Tab.0.right.ideScale=80" timestamp="1747654564449">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="412" height="0" key="GridCell.Tab.0.right.ideScale=80/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747654564449" />
+    <state width="14" height="10" key="GridCell.Tab.1.bottom.ideScale=50" timestamp="1747655664495">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="14" height="10" key="GridCell.Tab.1.bottom.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747655664495" />
+    <state width="14" height="10" key="GridCell.Tab.1.center.ideScale=50" timestamp="1747655664495">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="14" height="10" key="GridCell.Tab.1.center.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747655664495" />
+    <state width="14" height="10" key="GridCell.Tab.1.left.ideScale=50" timestamp="1747655664495">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="14" height="10" key="GridCell.Tab.1.left.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747655664495" />
+    <state width="14" height="10" key="GridCell.Tab.1.right.ideScale=50" timestamp="1747655664495">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state width="14" height="10" key="GridCell.Tab.1.right.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747655664495" />
+    <state x="0" y="0" key="SettingsEditor.ideScale=50" timestamp="1747654584312">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor.ideScale=50/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747654584311" />
+    <state x="0" y="0" width="956" height="540" key="SettingsEditor.ideScale=80" timestamp="1747647692825">
+      <screen x="0" y="0" width="960" height="540" />
+    </state>
+    <state x="0" y="0" width="956" height="540" key="SettingsEditor.ideScale=80/0.0.960.540/1920.0.1920.1080/3840.0.1920.1080@0.0.960.540" timestamp="1747647692825" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/setzer/popovers/helpers/popover.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setzer/popovers/hamburger_menu/hamburger_menu.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/ui/window.blp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setzer/popovers/hamburger_menu/hamburger_menu_viewgtk.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

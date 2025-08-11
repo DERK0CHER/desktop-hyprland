@@ -1,0 +1,7 @@
+<action>
+  <name>Convert to PDF</name>
+  <command>codepdf %f</command>
+  <description>Convert code repository to PDF</description>
+  <patterns>*</patterns>
+  <directories/>
+</action>

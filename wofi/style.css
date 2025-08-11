@@ -1,0 +1,29 @@
+window {
+  background-color: rgba(30, 30, 30, 0.95);
+  border: 2px solid #444;
+  border-radius: 8px;
+  font-family: sans-serif;
+  color: #eee;
+}
+
+#input {
+  background-color: #222;
+  color: #eee;
+  border: none;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+#entry {
+  padding: 8px;
+  margin: 4px;
+  color: #ddd;
+  border-radius: 4px;
+}
+
+#entry:selected {
+  background-color: #555;
+  color: #fff;
+}
+

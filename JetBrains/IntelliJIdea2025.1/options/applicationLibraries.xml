@@ -1,0 +1,70 @@
+<application>
+  <component name="libraryTable">
+    <library name="Python 3.13 interpreter library">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Python 3.8 (SilkTex) interpreter library">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.18/lib/python3.8" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.18/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.18/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/IntelliJIdea2025.1/python_stubs/1081429672" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.18/lib/python3.8" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.18/lib/python3.8/lib-dynload" />
+        <root url="file://$USER_HOME$/.pyenv/versions/3.8.18/lib/python3.8/site-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/IntelliJIdea2025.1/python_stubs/1081429672" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </SOURCES>
+    </library>
+    <library name="Python 3.8 interpreter library">
+      <CLASSES>
+        <root url="file:///usr/lib64/python3.13" />
+        <root url="file:///usr/lib64/python3.13/lib-dynload" />
+        <root url="file://$USER_HOME$/software/SilkTex/.venv/lib64/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/software/SilkTex/.venv/lib/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/IntelliJIdea2025.1/python_stubs/-909470437" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib64/python3.13" />
+        <root url="file:///usr/lib64/python3.13/lib-dynload" />
+        <root url="file://$USER_HOME$/software/SilkTex/.venv/lib64/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/software/SilkTex/.venv/lib/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/IntelliJIdea2025.1/python_stubs/-909470437" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </SOURCES>
+    </library>
+    <library name="Python 3.8) interpreter library">
+      <CLASSES>
+        <root url="file:///usr/lib64/python3.13" />
+        <root url="file:///usr/lib64/python3.13/lib-dynload" />
+        <root url="file://$USER_HOME$/software/SilkTex/.venv/lib64/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/software/SilkTex/.venv/lib/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/IntelliJIdea2025.1/python_stubs/-909470437" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib64/python3.13" />
+        <root url="file:///usr/lib64/python3.13/lib-dynload" />
+        <root url="file://$USER_HOME$/software/SilkTex/.venv/lib64/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/software/SilkTex/.venv/lib/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/IntelliJIdea2025.1/python_stubs/-909470437" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </SOURCES>
+    </library>
+  </component>
+</application>
