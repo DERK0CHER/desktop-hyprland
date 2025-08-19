@@ -8,4 +8,24 @@ window#waybar * {
 window#waybar {
   color: #ded8c0 ;
 }
+/* target workspace buttons in waybar and remove all chrome */
+#hyprland-workspaces button {
+  all: unset;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  -gtk-outline-radius: 0;
+  -gtk-icon-shadow: none;
+  margin: 0 6px;
+  padding: 0;
+  color: inherit;
+}
+
+window#waybar button {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+}
 
