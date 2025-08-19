@@ -3,6 +3,8 @@ window#waybar * {
   background: transparent ;
   background-color: transparent ;
   box-shadow: none ;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 window#waybar {
@@ -28,4 +30,48 @@ window#waybar button {
   box-shadow: none;
   background: transparent;
 }
+
+/*spacing*/
+
+#clock {
+  margin-left: 4px;   /* pushes it away from the left neighbor */
+  margin-right: 4px;  /* pushes it away from the right neighbor */
+}
+#custom-notch { min-width: 284px; }
+
+#pulseaudio {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#network{
+	margin-left: 4px;
+	margin-right: 4px;
+}
+#battery{
+	margin-right: 4px;
+	margin-left: 4px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
