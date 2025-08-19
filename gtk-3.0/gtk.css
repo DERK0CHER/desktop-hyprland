@@ -1,0 +1,57 @@
+@define-color bg_dark      #1b1b17;
+@define-color gold         #ab8d2e;
+@define-color bright_gold  #c6c24e;
+@define-color green        #94a66f;
+@define-color green2       #9eb277;
+@define-color beige        #ded8c0;
+@define-color red          #a40000;
+@define-color salmon       #ff7b7b;
+
+* {
+    background-color: @bg_dark;
+    color: @beige;
+}
+
+button,
+entry,
+combobox,
+spinbutton,
+scale {
+    background-color: @bg_dark;
+    color: @beige;
+    border: 1px solid @gold;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: @gold;
+    color: @bg_dark;
+}
+
+button:active {
+    background-color: @bright_gold;
+    color: @bg_dark;
+}
+
+entry:focus {
+    border-color: @bright_gold;
+}
+
+selection {
+    background-color: @bright_gold;
+    color: @bg_dark;
+}
+
+headerbar {
+    background-color: @bg_dark;
+    color: @beige;
+}
+
+progressbar trough {
+    background-color: shade(@bg_dark, 0.8);
+}
+
+progressbar progress {
+    background-color: @green2;
+}
+

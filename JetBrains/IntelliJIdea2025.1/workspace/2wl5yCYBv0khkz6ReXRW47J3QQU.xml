@@ -1,0 +1,66 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="ags" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <expand />
+    <select />
+  </component>
+  <component name="IdeDocumentHistory"><![CDATA[{}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1303000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info active="true" id="Structure" order="2" side_tool="true" visible="true" weight="0.330074" />
+      <window_info content_ui="combo" id="Project" order="3" weight="0.330074" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info active="true" anchor="right" id="AIAssistant" order="1" visible="true" weight="0.330074" />
+      <window_info anchor="right" id="Database" order="2" weight="0.330074" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights left="0.330074" right="0.330074" />
+    </layoutV2>
+    <recentWindows>
+      <value>AIAssistant</value>
+      <value>Database</value>
+      <value>Structure</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2668" y="328" key="FileChooserDialogImpl" timestamp="1746604174531">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2668" y="328" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080/5760.0.1920.1080@1920.0.1920.1080" timestamp="1746604174531" />
+    <state x="2480" y="219" width="800" height="680" key="new project wizard" timestamp="1746605923383">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2480" y="219" width="800" height="680" key="new project wizard/0.0.1920.1080/1920.0.1920.1080/5760.0.1920.1080@1920.0.1920.1080" timestamp="1746605923383" />
+  </component>
+</project>

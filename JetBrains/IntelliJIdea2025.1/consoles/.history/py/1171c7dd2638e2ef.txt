@@ -1,0 +1,16 @@
+def on_save_quit_response(self, parameters):
+    document = parameters['unsaved_document']
+    response = parameters['response']
+
+    if response == 2:  # Save
+        if document.get_filename() != None:
+            document.save_document()
+            self.save_quit()  # Continue with remaining unsaved docs
+        else:
+            save_dialog = DialogLocator.get_dialog('save_document')
+            save_dialog.run(document, self.save_quit)  # Pass document and callback correctly
+    elif response == 0:  # Discard
+        document.source_buffer.set_modified(False)
+        self.save_quit()  # Continue with remaining unsaved docs
+    elif response == 1:  # Cancel
+        pass  # Don't quit

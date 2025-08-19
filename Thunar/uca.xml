@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon></icon>
+	<name>Convert to PDF</name>
+	<submenu></submenu>
+	<unique-id>1747742755142245-1</unique-id>
+	<command>codepdf %f</command>
+	<description>Convert code repository to PDF</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+</actions>

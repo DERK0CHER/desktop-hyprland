@@ -1,0 +1,28 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/.config/ags" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/CODEF" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/DrawTM" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/codepdf" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/gnome-builder" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/gnome-text-editor" value="true" />
+        <entry key="$USER_HOME$/Projects" value="true" />
+        <entry key="$USER_HOME$/Projects/Setzer" value="true" />
+        <entry key="$USER_HOME$/Projects/silly" value="true" />
+        <entry key="$USER_HOME$/software/Setzer2" value="true" />
+        <entry key="$USER_HOME$/software/SilkTex" value="true" />
+        <entry key="$USER_HOME$/software/silktex2/Chisel" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/.config" />
+        <option value="$USER_HOME$/software" />
+      </list>
+    </option>
+  </component>
+</application>

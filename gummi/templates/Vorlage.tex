@@ -1,0 +1,94 @@
+\documentclass[10pt]{article}
+\synctex=1
+     
+ 
+      
+        
+ 
+%% Usepackages ............................................................. %%
+\usepackage{amsmath,amssymb,amsfonts,amsthm,mathtools,xfrac,extarrows,enumitem, bbold}%,refcheck}  
+%\usepackage{epstopdf}
+\usepackage{graphicx, float}
+\usepackage{color}  
+%\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}  
+\usepackage{amscd}  
+\usepackage[active]{srcltx}    
+%\usepackage{showkeys}   
+\usepackage[font={small}]{caption} 
+\usepackage{epstopdf}
+\usepackage[T1]{fontenc}
+\usepackage{amscd} 
+\usepackage{xr,xr-hyper}           
+    
+     
+    
+     
+         
+    
+%% Styling ................................................................................%%
+\numberwithin{equation}{section}  
+\textwidth 16cm   
+\oddsidemargin -0.01cm
+\addtolength{\textheight}{2cm}
+\addtolength{\topmargin}{-1cm}
+ 
+ 
+     
+   
+ 
+
+
+ 
+
+
+%% Newcommands .......................................................................%%
+\newcommand{\ov}{\overline}
+\renewcommand{\a }{\alpha }
+\renewcommand{\b }{\beta }
+\renewcommand{\d}{\delta }
+\renewcommand{\l}{\lambda }
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Rs}{\mbox{ \scriptsize I\hspace{-.15em}R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Zs}{\mbox{\scriptsize Z\hspace{-.25em}Z}}
+
+
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+
+
+%% Envirionments ..............................................................................%%
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{remark}{Remark}[section]    
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{proposition}{Proposition}[section] 
+\newtheorem{thm}{Theorem}
+\newtheorem{definition}{Definition}[section]   
+
+
+%% Horizontal line
+
+\def\hline
+{
+\vspace{-12pt}
+\begin{center}
+\rule{0.7\linewidth}{0.5pt}
+\end{center}
+\vspace{12pt}
+}
+
+
+
+\begin{document} 
+
+
+{\centerline{\Large{\bf Titolo }}}
+\hline
+
+\end{document}

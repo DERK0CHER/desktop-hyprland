@@ -1,0 +1,9 @@
+<application>
+  <component name="EditorSettings">
+    <option name="languageStickyLines">
+      <map>
+        <entry key="Jupyter" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,103 @@
+{
+    "name": "gnim",
+    "version": "1.2.6",
+    "type": "module",
+    "author": "Aylur",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Aylur/gnim.git"
+    },
+    "funding": {
+        "type": "kofi",
+        "url": "https://ko-fi.com/aylur"
+    },
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint . --fix",
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "devDependencies": {
+        "@girs/adw-1": "latest",
+        "@girs/clutter-16": "latest",
+        "@girs/gtk-3.0": "latest",
+        "@girs/soup-3.0": "latest",
+        "@girs/st-16": "latest",
+        "@girs/gnome-shell": "latest",
+        "esbuild": "latest",
+        "eslint": "latest",
+        "typescript": "latest",
+        "typescript-eslint": "latest",
+        "vitepress": "latest"
+    },
+    "exports": {
+        ".": {
+            "import": "./dist/jsx/index.js",
+            "types": "./dist/jsx/index.d.ts"
+        },
+        "./gobject": {
+            "import": "./dist/gobject.js",
+            "types": "./dist/gobject.d.ts"
+        },
+        "./dbus": {
+            "import": "./dist/dbus.js",
+            "types": "./dist/dbus.d.ts"
+        },
+        "./fetch": {
+            "import": "./dist/fetch.js",
+            "types": "./dist/fetch.d.ts"
+        },
+        "./gtk3/jsx-runtime": {
+            "import": "./dist/gtk3/jsx-runtime.js",
+            "types": "./dist/gtk3/jsx-runtime.d.ts"
+        },
+        "./gtk3/style": {
+            "import": "./dist/gtk3/style.js",
+            "types": "./dist/gtk3/style.d.ts"
+        },
+        "./gtk4/jsx-runtime": {
+            "import": "./dist/gtk4/jsx-runtime.js",
+            "types": "./dist/gtk4/jsx-runtime.d.ts"
+        },
+        "./gtk4/style": {
+            "import": "./dist/gtk4/style.js",
+            "types": "./dist/gtk4/style.d.ts"
+        },
+        "./gnome/jsx-runtime": {
+            "import": "./dist/gnome/jsx-runtime.js",
+            "types": "./dist/gnome/jsx-runtime.d.ts"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "engines": {
+        "gjs": ">=1.79.0"
+    },
+    "keywords": [
+        "GJS",
+        "Gnome",
+        "GTK",
+        "JSX"
+    ],
+    "prettier": {
+        "semi": false,
+        "tabWidth": 4,
+        "quoteProps": "consistent",
+        "trailingComma": "all",
+        "printWidth": 100,
+        "experimentalTernaries": false,
+        "overrides": [
+            {
+                "files": "**/*.md",
+                "options": {
+                    "tabWidth": 2,
+                    "printWidth": 80,
+                    "proseWrap": "always"
+                }
+            }
+        ]
+    }
+}
