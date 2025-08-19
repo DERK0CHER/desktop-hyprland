@@ -1,0 +1,10 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 42,
+
+  "modules-left": ["workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["pulseaudio", "network", "battery"]
+}
+

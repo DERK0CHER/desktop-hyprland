@@ -1,0 +1,11 @@
+window#waybar,
+window#waybar * {
+  background: transparent ;
+  background-color: transparent ;
+  box-shadow: none ;
+}
+
+window#waybar {
+  color: #ded8c0 ;
+}
+
